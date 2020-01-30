@@ -1,53 +1,81 @@
 #include <stdio.h>
 
-void check(int *sed)
+void check(int *sed, int a)
 {
-    int sum=*sed;
-    sed++;
-    for (;*sed!='\0';sed++)
+    int sum = sed[0];
+    int res = sed[0];
+    for (int i = 1; i<=a; i++)
     {
-        prnitf("num:%d\n",sed);
-        if (sum < (sum + *sed))
-            sum = sum + *sed;
+        if (sed[i] < sum + sed[i])
+            sum +=sed[i];
+        else
+            sum = sed[i];
+        if (res < sum)
+            res = sum;
+        printf("%d  ",res);
     }
-    printf("Output: %d",sum);
+    printf("Output: %d // ", res);
 }
 
-void result(char *c)
+int num(int res, int s)
 {
-    int sed[100];
-    int s=1;
-    int res=0;
-    int i=0;
-    while (*c != '\0')
+    if (s == -1)
+        return (res *= -1);
+    else
+        return (res);
+}
+
+void result(char *c, int a)
+{
+    a -= 1;
+    int sed[a];
+    int s = 0;
+    int res = 0;
+    int i = 0;
+    for (;*c; c++)
     {
         if (*c == '-')
-        {
             s = -1;
-        }
-        if (*c >= '0' && *c <= '9')
+        else if (*c == '+')
+            s = 1;
+        else if (*c >= '0' && *c <= '9')
         {
+            //if ()
             res *= 10;
             res = res + *c - '0';
         }
-        if (*c == ',')
+        else if (*c == ',')
         {
-            res *= s;
-            sed[i] = res;
-            res=0;
+            sed[i] = num(res, s);
+            res = 0;
+            s = 1;
             i++;
         }
-        c++;
+        else
+        {
+            printf("Type Error");
+            return;
+        }
     }
-    sed[i] = res;
-    check(sed);
+    sed[i] = num(res, s);
+    if (a != i)
+    {
+        printf("Input Array Nums Error");
+        return;
+    }
+    check(sed, a);
 }
 
 int main()
 {
-    char c[100];
+    int a;
+    int k;
+    printf("Input Array Nums: ");
+    scanf("%d",&a);
+    k = a*2-2;
+    char c[k];
     printf("Input: ");
     scanf("%s",c);
-    result(c);
+    result(c, a);
     return (0);
 }
