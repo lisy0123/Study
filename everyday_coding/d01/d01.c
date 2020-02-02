@@ -4,6 +4,7 @@ void check(int *sed, int a)
 {
     int sum = sed[0];
     int res = sed[0];
+
     for (int i = 1; i<=a; i++)
     {
         if (sed[i] < sum + sed[i])
@@ -12,9 +13,8 @@ void check(int *sed, int a)
             sum = sed[i];
         if (res < sum)
             res = sum;
-        printf("%d  ",res);
     }
-    printf("Output: %d // ", res);
+    printf("Output: %d", res);
 }
 
 int num(int res, int s)
@@ -32,15 +32,25 @@ void result(char *c, int a)
     int s = 0;
     int res = 0;
     int i = 0;
+
     for (;*c; c++)
     {
         if (*c == '-')
-            s = -1;
+        {
+            if (s != -1)
+                s = -1;
+            else
+                s = 1;
+        }
         else if (*c == '+')
-            s = 1;
+        {
+            if (s == -1)
+                s = -1;
+            else 
+                s = 1;
+        }
         else if (*c >= '0' && *c <= '9')
         {
-            //if ()
             res *= 10;
             res = res + *c - '0';
         }
@@ -70,12 +80,15 @@ int main()
 {
     int a;
     int k;
+
     printf("Input Array Nums: ");
     scanf("%d",&a);
     k = a*2-2;
     char c[k];
     printf("Input: ");
     scanf("%s",c);
+
     result(c, a);
+
     return (0);
 }
