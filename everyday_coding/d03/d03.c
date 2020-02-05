@@ -2,22 +2,27 @@
 
 void res(int num, int i)
 {
-    for (; num > i; i++)
+    if (num > 0)
     {
-    if (i == 0)
-        printf("\"");
-    if (i == num)
-        printf("\"");
+        if (num == i)
+            printf("\"");
+        printf("(");
+        printf("%d ", num);
+        if (num == 1)
+            printf("\"");
+        res(num - 1, i);
+    }
 }
 
 int main()
 {
     int a;
-    int i = 0;
+    int i;
 
     printf("Input: ");
     scanf("%d", &a);
     printf("Output: [");
+    i = a;
     res(a, i);
     printf("]");
 
