@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void res(int num)
+void res(int num, int i)
 {
-    int i = 0;
+    for (; num > i; i++)
+    {
     if (i == 0)
         printf("\"");
-    if ()
     if (i == num)
         printf("\"");
 }
@@ -13,11 +13,13 @@ void res(int num)
 int main()
 {
     int a;
+    int i = 0;
 
     printf("Input: ");
     scanf("%d", &a);
     printf("Output: [");
-    res(a);
+    res(a, i);
     printf("]");
+
     return (0);
 }
