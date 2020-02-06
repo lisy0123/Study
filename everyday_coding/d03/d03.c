@@ -6,7 +6,10 @@ void res(int num, int i)
     {
         if (num == i)
             printf("\"");
-        printf("(");
+        for (int i = 0; i < num; i++)
+            printf("(");
+        for (int i = 0; i < num; i++)
+            printf(")");
         printf("%d ", num);
         if (num == 1)
             printf("\"");
