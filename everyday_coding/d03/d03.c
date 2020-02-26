@@ -1,29 +1,30 @@
 #include <stdio.h>
 
-void re(int num)
+void	re(int num, int i, int j)
 {
-	int i;
+	int len;
 
-	if (num > 0)
+	len = num * 2;
+	if (j == len)
+		return ;
+	if (i < num)
 	{
-		i = num;
-		while (i > 0)
-		{
-			printf("(");
-			i--;
-		}
-		num--;
-		re(num);
+		printf("(");
+		re(num, i + 1, j);
+	}
+	if (j < i)
+	{
+		printf(")");
+		re(num, i, j + 1);
 	}
 }
 
-void res(int num, int i)
+void	res(int num)
 {
-	i = 0;
 	if (num)
 	{
 		printf("[");
-		re(num);
+		re(num, 0, 0);
 		printf("]");
 	}
 	else
@@ -32,14 +33,12 @@ void res(int num, int i)
 
 int main()
 {
-    int a;
-    int i;
-
-    printf("Input: ");
-    scanf("%d", &a);
-    printf("Output: ");
-	i = a;
-    res(a, i);
-
-    return (0);
+	int a;
+	
+	printf("Input: ");
+	scanf("%d", &a);
+	printf("Output: ");
+	res(a);
+	
+	return (0);
 }
