@@ -1,23 +1,50 @@
 #include <stdio.h>
 
-void	re(int num, int open, int close)
+void	decode(int code)
 {
-	int len;
-
-	len = num * 2;
-	if (close == len)
-		return ;
-	if (open != 0 && close == num)
-		printf(", ");
-	if (open < num)
+	while (code != 0)
 	{
-		printf("(");
-		re(num, open + 1, close);
+		if ((code % 10) == 1)
+			printf(")");
+		else if ((code % 10) == 0)
+			printf("(");
+		code = code / 10;
 	}
-	if (close < open)
+	if ()
+	printf(", ");
+}
+
+
+void	re(int open, int close, int code)
+{
+	if (code == 0)
 	{
-		printf(")");
-		re(num, open, close + 1);
+		code = 1;
+		re(open - 1, close, code);
+	}
+	else
+	{
+		if (open != 0)
+		{
+			if (open < close)
+			{
+				code *= 10;
+				re(open - 1, close, code + 1);
+				re(open, close - 1, code);
+			}
+			else if (open == close)
+			{
+				code *= 10;
+				re(open - 1, close, code + 1);
+			}
+		}
+		else if (close != 0)
+		{
+			code *= 10;
+			re(open, close - 1, code);
+		}
+		else
+			decode(code);
 	}
 }
 
@@ -26,7 +53,7 @@ void	res(int num)
 	if (num)
 	{
 		printf("[");
-		re(num, 0, 0);
+		re(num, num, 0);
 		printf("]");
 	}
 	else
