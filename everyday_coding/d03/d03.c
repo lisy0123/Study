@@ -1,21 +1,23 @@
 #include <stdio.h>
 
-void	re(int num, int i, int j)
+void	re(int num, int open, int close)
 {
 	int len;
 
 	len = num * 2;
-	if (j == len)
+	if (close == len)
 		return ;
-	if (i < num)
+	if (open != 0 && close == num)
+		printf(", ");
+	if (open < num)
 	{
 		printf("(");
-		re(num, i + 1, j);
+		re(num, open + 1, close);
 	}
-	if (j < i)
+	if (close < open)
 	{
 		printf(")");
-		re(num, i, j + 1);
+		re(num, open, close + 1);
 	}
 }
 
