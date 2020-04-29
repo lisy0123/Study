@@ -83,7 +83,7 @@ int main()
 
     printf("Input Array Nums: ");
     scanf("%d",&a);
-    k = a*2-2;
+    k = a * 2 - 2;
     char c[k];
     printf("Input: ");
     scanf("%s",c);
