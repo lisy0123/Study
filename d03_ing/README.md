@@ -4,19 +4,17 @@ Given an inter N, find the number of possible balanced parentheses with N openin
 
 
 
-ex)
+> Input: 1
+>
+> Ouput: ["()"]
 
-Input: 1
+> Input: 2
+>
+> Ouput: ["(())", "()()"]
 
-Ouput: ["()"]
-
-Input: 2
-
-Ouput: ["(())", "()()"]
-
-Input: 3
-
-Ouput: ["((()))", "(()())", "()(())", "(())()", "()()()"]
+> Input: 3
+>
+> Ouput: ["((()))", "(()())", "()(())", "(())()", "()()()"]
 
 
 
