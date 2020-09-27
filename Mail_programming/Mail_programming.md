@@ -1,5 +1,7 @@
 # Mail programming
 
+**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. It helps people improve coding skills.
+
 
 
 ## :clipboard: [d01](https://github.com/lisy0123/Mail_Programming/tree/master/d01)

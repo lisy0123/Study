@@ -1,16 +1,13 @@
-# :one: Mail_programming
-
-(https://mailprogramming.com/)
+# :one: [Mail_programming](https://github.com/lisy0123/Study/blob/master/Mail_programming/Mail_programming.md)
 
 
 
-# :two: [Coursera - Stanford Machine Learning](https://github.com/lisy0123/Coursera_Stanford_Machine_Learning)
+# :two: Python
 
 
 
-# :three: Python
+# :three: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
 
 
 
-# :four: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
-
+# :four: [Coursera - Stanford Machine Learning](https://github.com/lisy0123/Coursera_Stanford_Machine_Learning)
