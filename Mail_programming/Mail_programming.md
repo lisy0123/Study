@@ -1,6 +1,8 @@
 # Mail programming
 
-**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. It helps people improve coding skills.
+**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
+
+It helps people improve coding skills.
 
 
 
