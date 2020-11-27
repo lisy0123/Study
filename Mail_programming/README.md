@@ -1,8 +1,8 @@
 # Mail programming
 
-## d01
+**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
 
-### :clipboard: Question
+## :clipboard: [d01](https://github.com/lisy0123/Study/blob/master/Mail_programming/d01)
 
 정수 배열(int array)가 주어지면 가장 큰 이어지는 원소들의 합을 구하시오. 단, 시간복잡도는 O(n).
 
@@ -25,103 +25,6 @@ Given an inter array, find the largest consecutive sum of elements.
 > Output: 9 
 >
 > // 2 + 4 + (-2) + (-3) + 8
-
-### :fountain_pen: Solution
-
-```c
-#include <stdio.h>
-
-void check(int *sed, int a)
-{
-    int sum = sed[0];
-    int res = sed[0];
-
-    for (int i = 1; i<=a; i++)
-    {
-        if (sed[i] < sum + sed[i])
-            sum +=sed[i];
-        else
-            sum = sed[i];
-        if (res < sum)
-            res = sum;
-    }
-    printf("Output: %d", res);
-}
-
-int num(int res, int s)
-{
-    if (s == -1)
-        return (res *= -1);
-    else
-        return (res);
-}
-
-void result(char *c, int a)
-{
-    a -= 1;
-    int sed[a];
-    int s = 0;
-    int res = 0;
-    int i = 0;
-
-    for (;*c; c++)
-    {
-        if (*c == '-')
-        {
-            if (s != -1)
-                s = -1;
-            else
-                s = 1;
-        }
-        else if (*c == '+')
-        {
-            if (s == -1)
-                s = -1;
-            else 
-                s = 1;
-        }
-        else if (*c >= '0' && *c <= '9')
-        {
-            res *= 10;
-            res = res + *c - '0';
-        }
-        else if (*c == ',')
-        {
-            sed[i] = num(res, s);
-            res = 0;
-            s = 1;
-            i++;
-        }
-        else
-        {
-            printf("Type Error");
-            return;
-        }
-    }
-    sed[i] = num(res, s);
-    if (a != i)
-    {
-        printf("Input Array Nums Error");
-        return;
-    }
-    check(sed, a);
-}
-
-int main()
-{
-    int a;
-    int k;
-
-    printf("Input Array Nums: ");
-    scanf("%d", &a);
-    k = a * 2 - 2;
-    char c[k];
-    printf("Input: ");
-    scanf("%s", c);
-    result(c, a);
-    return (0);
-}
-```
 
 ## :clipboard: [d02](https://github.com/lisy0123/Study/blob/master/Mail_programming/d02)
 
@@ -321,24 +224,6 @@ Given an array of strings, find the longest common prefix of all strings.
 >
 > Output: 3 // “dog”
 
-```c++
-int longestPrefixLength(String[] arr) {
-    if (arr.length == 0) {
-        return 0;
-    }
-    String max_prefix = arr[0];
-    for (int i = 0; i < max_prefix.length(); i++) {
-        char c = max_prefix.charAt(i);
-        for (int j = 1; j < arr.length; j++) {
-            if (i == arr[j].length() || arr[j].charAt(i) != c) {
-                return i;  
-            }
-        }
-    }
-    return max_prefix.length();
-}
-```
-
 ## [d15](https://github.com/lisy0123/Study/blob/master/Mail_programming/d15)
 
 링크드 리스트(linked list)의 머리 노드(head node)와 정수 N이 주어지면, 끝에서 N번째 노드(node)를 제거하고 머리 노드(head node)를 리턴하시오.
@@ -494,26 +379,6 @@ Given an array and an integer K, shift all elements in the array K times.
 > Output: [1, 2, 3, 4, 0]
 
 시간복잡도와 공간복잡도를 최대한 최적화 하시오.
-
-```c++
-void rotate(int[] arr, int k) {
-  int n = arr.length;
-  k %= n;
-  reverse(arr, 0, k-1);
-  reverse(arr, k, n-1);
-  reverse(arr, 0, n-1);
-}
-
-void reverse(int[] noms, int start, int end) {
-  while (start < end) {
-    int temp = nums[start];
-    nums[start] = nums[end];
-    nums[end] = temp;
-    start++;
-    end—;
-  }
-}
-```
 
 ## [d24](https://github.com/lisy0123/Study/blob/master/Mail_programming/d24)
 
@@ -784,33 +649,6 @@ Given a string, print all permutations of characters in the string.
 >
 > Output: ABC ACB BAC BCA CBA CAB
 
-```c++
-void main() {
-  String str = "ABC";
-  solve(str, 0, str.length() - 1);
-}
-
-void solve(String str, int l, int r) {
-  if (l == r) {
-    System.out.println(str);
-  }
-  else {
-    for (int i = l; i <= r; i++) {
-      str = swap(str, l, i);
-      solve(str, l + 1, r);
-      str = swap(str, l, i);
-    }
-  }
-}
-
-String swap(String str, int i, int j) {
-  StringBuilder sb = new StringBuilder(str);
-  sb.setCharAt(i, str.charAt(j));
-  sb.setCharAt(j, str.charAt(i));
-  return sb.toString();
-}
-```
-
 ## [d47](https://github.com/lisy0123/Study/blob/master/Mail_programming/d47)
 
 0, 1, 2로 이루어진 배열을 가장 효율적으로 정렬 하시오. 시간복잡도 O(n).
@@ -831,5 +669,8 @@ Given a singly linked list, print the value of the node that is in the middle of
 
 
 
-:label:  uploading...
+:label:  Updating...
 
+
+
+[↩️ Go Back](https://github.com/lisy0123/Study)
