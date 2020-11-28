@@ -2,9 +2,11 @@
 
 int main()
 {
-    int n,i,j;
+	int n,i,j;
 	int res;
-    scanf("%d",&n);
+
+	scanf("%d",&n);
+
 	i=n/5;
 	n%=5;
 	while (i>=0)
