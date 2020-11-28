@@ -85,6 +85,7 @@ int main()
     scanf("%d", &a);
     k = a * 2 - 2;
     char c[k];
+	printf("       ex) 1,2,3... << Write without space\n");
     printf("Input: ");
     scanf("%s", c);
     result(c, a);
