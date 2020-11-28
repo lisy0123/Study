@@ -2,26 +2,28 @@
 
 int main()
 {
-	int n,i,j;
+	int n;
+	int i;
+	int j;
 	int res;
 
-	scanf("%d",&n);
+	scanf("%d", &n);
 
-	i=n/5;
-	n%=5;
-	while (i>=0)
+	i = n / 5;
+	n %= 5;
+	while (i >= 0)
 	{
-		if (!(n%3))
+		if (!(n % 3))
 		{
-			j=n/3;
-			n%=3;
+			j = n / 3;
+			n %= 3;
 			break;
 		}
 		i--;
-		n+=5;
+		n += 5;
 	}
-	if (n==0)
-		printf("%d",i+j);
+	if (n == 0)
+		printf("%d", i + j);
 	else
 		printf("-1");
 	return (0);
