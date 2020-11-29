@@ -12,7 +12,11 @@
 
 ---
 <details>
-  <summary> :clipboard: d01 </summary>
+  <summary> :clipboard: Completed </summary>
+  <div markdown="1">
+    
+<details>
+  <summary> d01 </summary>
   <div markdown="1">
 
 정수 배열(int array)가 주어지면 가장 큰 이어지는 원소들의 합을 구하시오. 단, 시간복잡도는 O(n).
@@ -41,7 +45,7 @@ Given an inter array, find the largest consecutive sum of elements.
 </details>
 
 <details>
-  <summary> :clipboard: d02 </summary>
+  <summary> d02 </summary>
   <div markdown="1">
 
 피보나치 배열은 0과 1로 시작하며, 다음 피보나치 수는 바로 앞의 두 피보나치 수의 합이 된다. 정수 N이 주어지면, N보다 작은 모든 짝수 피보나치 수의 합을 구하여라.
@@ -60,7 +64,7 @@ Fibonacci sequence starts with 0 and 1 where each fibonacci number is a sum of t
 </details>
 
 <details>
-  <summary> :clipboard: d03 </summary>
+  <summary> d03 </summary>
   <div markdown="1">
 
 정수 n이 주어지면, n개의 여는 괄호 "("와 n개의 닫는 괄호 ")"로 만들 수 있는 괄호 조합을 모두 구하시오. (시간 복잡도 제한 없습니다).
@@ -83,7 +87,7 @@ Given an inter N, find the number of possible balanced parentheses with N openin
 </details>
 
 <details>
-  <summary> :clipboard: d04 </summary>
+  <summary> d04 </summary>
   <div markdown="1">
 
 정수(int)가 주어지면, 팰린드롬(palindrome)인지 알아내시오. 팰린드롬이란, 앞에서부터 읽으나 뒤에서부터 읽으나 같은 단어를 말합니다. 단, 정수를 문자열로 바꾸면 안됩니다.
@@ -108,6 +112,13 @@ Given an integer, check if it is a palindrome.
 
   </div>
 </details>
+
+  </div>
+</details>
+
+<details>
+  <summary> :fountain_pen: In progress </summary>
+  <div markdown="1">
 
 <details>
   <summary> d05 </summary>
@@ -910,6 +921,9 @@ Given an array consisting of 0, 1 and 2s, sort this array.
 단일 연결 리스트(singly linked list)가 주어지면 리스트의 중간 노드 값을 프린트 하시오. (제일 효율적인 방법으로)
 
 Given a singly linked list, print the value of the node that is in the middle of the list.
+
+  </div>
+</details>
 
   </div>
 </details>
