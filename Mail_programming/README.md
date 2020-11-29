@@ -2,6 +2,12 @@
 
 **[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
 
+> :star: **Goal** :star:
+>
+> ​	*Make same result, including special symbols.*
+
+---
+
 ## :clipboard: [d01](https://github.com/lisy0123/Study/blob/master/Mail_programming/d01)
 
 정수 배열(int array)가 주어지면 가장 큰 이어지는 원소들의 합을 구하시오. 단, 시간복잡도는 O(n).
@@ -40,7 +46,7 @@ Fibonacci sequence starts with 0 and 1 where each fibonacci number is a sum of t
 >
 > // even numbers 2 + 8 = 10
 
-## [d03](https://github.com/lisy0123/Study/blob/master/Mail_programming/d03)
+## :clipboard: [d03](https://github.com/lisy0123/Study/blob/master/Mail_programming/d03)
 
 정수 n이 주어지면, n개의 여는 괄호 "("와 n개의 닫는 괄호 ")"로 만들 수 있는 괄호 조합을 모두 구하시오. (시간 복잡도 제한 없습니다).
 
@@ -58,7 +64,7 @@ Given an inter N, find the number of possible balanced parentheses with N openin
 >
 > Ouput: ["((()))", "(()())", "()(())", "(())()", "()()()"]
 
-## [d04](https://github.com/lisy0123/Study/blob/master/Mail_programming/d04)
+## :clipboard: [d04](https://github.com/lisy0123/Study/blob/master/Mail_programming/d04)
 
 정수(int)가 주어지면, 팰린드롬(palindrome)인지 알아내시오. 팰린드롬이란, 앞에서부터 읽으나 뒤에서부터 읽으나 같은 단어를 말합니다. 단, 정수를 문자열로 바꾸면 안됩니다.
 
