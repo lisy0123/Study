@@ -6,9 +6,13 @@
 
 ### Representative project
 
-- **[fillit](https://github.com/lisy0123/42/tree/master/Cadet_old/fillit)**
-- **[fdf](https://github.com/lisy0123/42/tree/master/Cadet_old/fdf)**
-- **[cub3D](https://github.com/lisy0123/42/tree/master/Cadet_new/cub3D)**
+- **[Sastantua (Pyramid pattern) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/sastantua/ex00)**
+- **[Rush01 (Sudoku) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/rush01/ex00)**
+- **[Rush02 (Shape detection) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/rush02/ex00)**
+
+- **[Fillit (Tetriminos) - Cadet_old](https://github.com/lisy0123/42/tree/master/Cadet_old/fillit)**
+- ~~**[Fdf - Cadet old](https://github.com/lisy0123/42/tree/master/Cadet_old/fdf)**~~
+- ~~**[Cub3D - Cadet new](https://github.com/lisy0123/42/tree/master/Cadet_new/cub3D)**~~
 
 :bulb: Rechecking...
 
@@ -23,6 +27,8 @@ It's a summary of Professor Andrew Ng's Kocera Machine Learning lecture in Korea
 ---
 
 ## :three: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
+
+Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2020/ENU/Maya-Tech-Docs/PyMel/index.html) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**.
 
 :label:  Updating...
 
