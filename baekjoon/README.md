@@ -4,8 +4,9 @@ This is **[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem solving col
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=leesese)](https://solved.ac/leesese)
 
+### Representative solution
 
-:label:  Updating...
+- **yet**
 
 
 

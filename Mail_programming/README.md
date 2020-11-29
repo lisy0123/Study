@@ -4,7 +4,11 @@
 
 > :star: **Goal** :star:
 >
-> ​	*Make same result, including special symbols.*
+> *Make same result, including special symbols.*
+
+### Representative solution
+
+- **d03**
 
 ---
 

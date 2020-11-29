@@ -30,6 +30,11 @@ It's a summary of Professor Andrew Ng's Kocera Machine Learning lecture in Korea
 
 Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2020/ENU/Maya-Tech-Docs/PyMel/index.html) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**.
 
+### Representative tool
+
+- **My use**
+- **Human auto rigging**
+
 :label:  Updating...
 
 ---
@@ -50,13 +55,9 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 **[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
 
-:label:  Updating...
-
 ---
 
 ## :seven: [Baekjoon](https://github.com/lisy0123/Study/blob/master/baekjoon)
 
 This is **[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem solving collection.
-
-:label:  Updating...
 
