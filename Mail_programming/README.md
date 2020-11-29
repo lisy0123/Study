@@ -11,8 +11,9 @@
 - **d03**
 
 ---
-
-## :clipboard: [d01](https://github.com/lisy0123/Study/blob/master/Mail_programming/d01)
+<details>
+  <summary> :clipboard: d01 </summary>
+  <div markdown="1">
 
 정수 배열(int array)가 주어지면 가장 큰 이어지는 원소들의 합을 구하시오. 단, 시간복잡도는 O(n).
 
@@ -36,7 +37,12 @@ Given an inter array, find the largest consecutive sum of elements.
 >
 > // 2 + 4 + (-2) + (-3) + 8
 
-## :clipboard: [d02](https://github.com/lisy0123/Study/blob/master/Mail_programming/d02)
+  </div>
+</details>
+
+<details>
+  <summary> :clipboard: d02 </summary>
+  <div markdown="1">
 
 피보나치 배열은 0과 1로 시작하며, 다음 피보나치 수는 바로 앞의 두 피보나치 수의 합이 된다. 정수 N이 주어지면, N보다 작은 모든 짝수 피보나치 수의 합을 구하여라.
 
@@ -50,7 +56,12 @@ Fibonacci sequence starts with 0 and 1 where each fibonacci number is a sum of t
 >
 > // even numbers 2 + 8 = 10
 
-## :clipboard: [d03](https://github.com/lisy0123/Study/blob/master/Mail_programming/d03)
+  </div>
+</details>
+
+<details>
+  <summary> :clipboard: d03 </summary>
+  <div markdown="1">
 
 정수 n이 주어지면, n개의 여는 괄호 "("와 n개의 닫는 괄호 ")"로 만들 수 있는 괄호 조합을 모두 구하시오. (시간 복잡도 제한 없습니다).
 
@@ -68,7 +79,12 @@ Given an inter N, find the number of possible balanced parentheses with N openin
 >
 > Ouput: ["((()))", "(()())", "()(())", "(())()", "()()()"]
 
-## :clipboard: [d04](https://github.com/lisy0123/Study/blob/master/Mail_programming/d04)
+  </div>
+</details>
+
+<details>
+  <summary> :clipboard: d04 </summary>
+  <div markdown="1">
 
 정수(int)가 주어지면, 팰린드롬(palindrome)인지 알아내시오. 팰린드롬이란, 앞에서부터 읽으나 뒤에서부터 읽으나 같은 단어를 말합니다. 단, 정수를 문자열로 바꾸면 안됩니다.
 
@@ -90,7 +106,12 @@ Given an integer, check if it is a palindrome.
 >
 > Output: True
 
-## [d05](https://github.com/lisy0123/Study/blob/master/Mail_programming/d05)
+  </div>
+</details>
+
+<details>
+  <summary> d05 </summary>
+  <div markdown="1">
 
 정수 배열과 타겟 숫자가 주어지면, 합이 타겟값이 되는 두 원소의 인덱스를 찾으시오. 단, 시간복잡도 O(n) 여야 합니다.
 
@@ -100,8 +121,13 @@ Given an array of integers and a target integer, find two indexes of the array e
 >
 > Output: [0, 2] // 배열[0] + 배열[2] = 8
 
-## [d06](https://github.com/lisy0123/Study/blob/master/Mail_programming/d06)
+  </div>
+</details>
 
+<details>
+  <summary> d06 </summary>
+  <div markdown="1">
+    
 간격(interval)로 이루어진 배열이 주어지면, 겹치는 간격 원소들을 합친 새로운 배열을 만드시오. 간격은 시작과 끝으로 이루어져 있으며 시작은 끝보다 작거나 같습니다.
 
 Given a list of intervals, merge intersecting intervals.
@@ -114,8 +140,13 @@ Given a list of intervals, merge intersecting intervals.
 >
 > Output: {{1,6}}
 
-## [d07](https://github.com/lisy0123/Study/blob/master/Mail_programming/d07)
+  </div>
+</details>
 
+<details>
+  <summary> d07 </summary>
+  <div markdown="1">
+    
 주어진 string 에 모든 단어를 거꾸로 하시오.
 
 Reverse all the words in the given string.
@@ -124,7 +155,12 @@ Reverse all the words in the given string.
 >
 > Output: “cba 321 elppa”
 
-## [d08](https://github.com/lisy0123/Study/blob/master/Mail_programming/d08)
+  </div>
+</details>
+
+<details>
+  <summary> d08 </summary>
+  <div markdown="1">
 
 정수 배열(int array)이 주어지면 두번째로 큰 값을 프린트하시오.
 
@@ -138,8 +174,13 @@ Given an integer array, find the second largest element.
 >
 > Output: Does not exist.
 
-## [d09](https://github.com/lisy0123/Study/blob/master/Mail_programming/d09)
+  </div>
+</details>
 
+<details>
+  <summary> d09 </summary>
+  <div markdown="1">
+    
 정수 배열(int array)이 주어지면 0이 아닌 정수 순서를 유지하며 모든 0을 배열 오른쪽 끝으로 옮기시오. 단, 시간복잡도는 O(n), 공간복잡도는 O(1)여야 합니다.
 
 Given an integer array, move all the 0s to the right of the array without changing the order of non-zero elements.
@@ -152,8 +193,13 @@ Given an integer array, move all the 0s to the right of the array without changi
 >
 > Output: [3, 3, 0]
 
-## [d10](https://github.com/lisy0123/Study/blob/master/Mail_programming/d10)
+  </div>
+</details>
 
+<details>
+  <summary> d10 </summary>
+  <div markdown="1">
+    
 String이 주어지면, 중복된 char가 없는 가장 긴 서브스트링 (substring)의 길이를 찾으시오. 
 
 Given a string, find the longest substring that does not have duplicate characters.
@@ -170,8 +216,13 @@ Given a string, find the longest substring that does not have duplicate characte
 >
 > Output: 4 // “bced”
 
-## [d11](https://github.com/lisy0123/Study/blob/master/Mail_programming/d11)
+  </div>
+</details>
 
+<details>
+  <summary> d11 </summary>
+  <div markdown="1">
+    
 길이가 같은 두 문자열(string) A 와 B가 주어지면, A 가 B 로 1:1 암호화 가능한지 찾으시오.
 
 Given two strings of equal length, check if two strings can be encrypted 1 to 1.
@@ -188,8 +239,13 @@ Given two strings of equal length, check if two strings can be encrypted 1 to 1.
 >
 > Output: False
 
-## [d12](https://github.com/lisy0123/Study/blob/master/Mail_programming/d12)
+  </div>
+</details>
 
+<details>
+  <summary> d12 </summary>
+  <div markdown="1">
+    
 정수로된 배열이 주어지면, 각 원소가 자신을 뺀 나머지 원소들의 곱셈이 되게하라. 단, 나누기 사용 금지, O(n) 시간복잡도
 
 Given an integer array, make each element a product of all element values without itself.
@@ -198,8 +254,13 @@ Given an integer array, make each element a product of all element values withou
 >
 > Output: [120, 60, 40, 30, 24]
 
-## [d13](https://github.com/lisy0123/Study/blob/master/Mail_programming/d13)
+  </div>
+</details>
 
+<details>
+  <summary> d13 </summary>
+  <div markdown="1">
+    
 정수 배열(int array)과 정수 N이 주어지면, N번째로 큰 배열 원소를 찾으시오.
 
 Given an integer array and integer N, find the Nth largest element in the array.
@@ -216,8 +277,13 @@ Given an integer array and integer N, find the Nth largest element in the array.
 >
 > Output: -5
 
-## [d14](https://github.com/lisy0123/Study/blob/master/Mail_programming/d14)
+  </div>
+</details>
 
+<details>
+  <summary> d14 </summary>
+  <div markdown="1">
+    
 문자열 배열(string array)이 주어지면, 제일 긴 공통된 접두사(prefix)의 길이를 찾으시오.
 
 Given an array of strings, find the longest common prefix of all strings.
@@ -234,8 +300,13 @@ Given an array of strings, find the longest common prefix of all strings.
 >
 > Output: 3 // “dog”
 
-## [d15](https://github.com/lisy0123/Study/blob/master/Mail_programming/d15)
+  </div>
+</details>
 
+<details>
+  <summary> d15 </summary>
+  <div markdown="1">
+    
 링크드 리스트(linked list)의 머리 노드(head node)와 정수 N이 주어지면, 끝에서 N번째 노드(node)를 제거하고 머리 노드(head node)를 리턴하시오.
 
 단, 리스트를 한번만 돌면서 풀어야합니다. N은 리스트 길이보다 크지 않습니다.
@@ -254,8 +325,13 @@ Given a head node of a singly linked list, remove the Nth last element and retur
 >
 > Output: null
 
-## [d16](https://github.com/lisy0123/Study/blob/master/Mail_programming/d16)
+  </div>
+</details>
 
+<details>
+  <summary> d16 </summary>
+  <div markdown="1">
+    
 두개의 정렬된(sorted) 정수 링크드리스트(linked list)가 주어지면, 두 리스트를 합친 정렬된 링크드리스트를 만드시오.
 
 Given two sorted integer linked lists, merge the two linked lists. Merged linked list must also be sorted.
@@ -268,8 +344,13 @@ Given two sorted integer linked lists, merge the two linked lists. Merged linked
 >
 > Output: 1->2->3->4->5->6
 
-## [d17](https://github.com/lisy0123/Study/blob/master/Mail_programming/d17)
+  </div>
+</details>
 
+<details>
+  <summary> d17 </summary>
+  <div markdown="1">
+    
 0과 1로 만들어진 2D 정수 배열이 있습니다. 0은 장애물이고 1은 도로일때, 두 좌표가 주어지면, 첫번째 좌표에서 두번째 좌표까지 가장 가까운 거리를 구하시오. 두 좌표는 모두 도로에서 시작되고 좌, 우, 아래, 위로 움직이며 대각선으로는 움직일 수 없습니다. 만약 갈 수 없다면 -1을 리턴하시오.
 
 Given a 2D array with 0s and 1s, 0 represents an obstacle and 1 represents a road. Find the closest distance between two given points. You must only move up down right left. You cannot move through an obstacle.
@@ -294,16 +375,26 @@ Given a 2D array with 0s and 1s, 0 represents an obstacle and 1 represents a roa
 >
 > Output: 8
 
-## [d18](https://github.com/lisy0123/Study/blob/master/Mail_programming/d18)
+  </div>
+</details>
 
+<details>
+  <summary> d18 </summary>
+  <div markdown="1">
+    
 이진 트리를 루트 노드를 기준으로 좌우반전 하시오.
 
 이 문제는 구글이 Homebrew 창시자에게 낸 문제로 유명합니다.
 
 Given a binary tree root node, reverse the tree horizontally.
 
-## [d19](https://github.com/lisy0123/Study/blob/master/Mail_programming/d19)
+  </div>
+</details>
 
+<details>
+  <summary> d19 </summary>
+  <div markdown="1">
+    
 2차 정수 배열(2D int array)가 주어지면, 소용돌이 모양으로 원소들을 프린트하시오. 예제를 보시오.
 
 Given a 2D integer array, print all elements in a circular spiral shape starting from [0][0]. See example.
@@ -318,8 +409,13 @@ Given a 2D integer array, print all elements in a circular spiral shape starting
 >
 > Output: 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-## [d20](https://github.com/lisy0123/Study/blob/master/Mail_programming/d20)
+  </div>
+</details>
 
+<details>
+  <summary> d20 </summary>
+  <div markdown="1">
+    
 정수 배열 arr이 있습니다. arr안의 각 원소의 값은 다음 원소의 인덱스입니다. 이렇게 서로 이어지는 원소들의 배열이 있을때, arr[0]부터 시작하여 모든 원소를 들린 다음 다시 arr[0]로 도착할 수 있는지 찾으시오.
 
 단, 시간복잡도는 O(n), 공간복잡도는 O(1).
@@ -346,8 +442,13 @@ Given a 2D integer array, print all elements in a circular spiral shape starting
 >
 > // arr[0]로 돌아오지 못합니다.
 
-## [d21](https://github.com/lisy0123/Study/blob/master/Mail_programming/d21)
+  </div>
+</details>
 
+<details>
+  <summary> d21 </summary>
+  <div markdown="1">
+    
 O(n log n)시간 복잡도를 가진 정수 배열 정렬 알고리즘을 구현하시오.
 
 Implement an O(n log n) time complexity sorting algorithm.
@@ -356,8 +457,13 @@ Implement an O(n log n) time complexity sorting algorithm.
 >
 > Output: [1, 3, 5, 6]
 
-## [d22](https://github.com/lisy0123/Study/blob/master/Mail_programming/d22)
+  </div>
+</details>
 
+<details>
+  <summary> d22 </summary>
+  <div markdown="1">
+    
 정렬(sort)된 정수 배열과 정수 n이 주어지면, 배열안에 n이 있는지 체크하시오. 시간복잡도를 최대한 최적화하시오.
 
 Given a sorted integer array and an integer N, check if N exists in the array.
@@ -374,8 +480,13 @@ Given a sorted integer array and an integer N, check if N exists in the array.
 >
 > Output: false
 
-## [d23](https://github.com/lisy0123/Study/blob/master/Mail_programming/d23)
+  </div>
+</details>
 
+<details>
+  <summary> d23 </summary>
+  <div markdown="1">
+    
 정수 배열과 정수 k가 주어지면 모든 원소를 k칸씩 앞으로 옮기시오.
 
 Given an array and an integer K, shift all elements in the array K times.
@@ -390,14 +501,24 @@ Given an array and an integer K, shift all elements in the array K times.
 
 시간복잡도와 공간복잡도를 최대한 최적화 하시오.
 
-## [d24](https://github.com/lisy0123/Study/blob/master/Mail_programming/d24)
+  </div>
+</details>
 
+<details>
+  <summary> d24 </summary>
+  <div markdown="1">
+    
 단방향 연결 리스트(Singly linked list)가 주어지면 O(n log n) 시간복잡도로 정렬하시오.
 
 Given a singly linked list, sort the list in O(n log n) time complexity.
 
-## [d25](https://github.com/lisy0123/Study/blob/master/Mail_programming/d25)
+  </div>
+</details>
 
+<details>
+  <summary> d25 </summary>
+  <div markdown="1">
+    
 정렬된 정수 배열이 있습니다. 이 배열의 모든 원소들을 오른쪽으로 랜덤하게 Z번 이동하였습니다.
 
 예를 들면 [1, 2, 3, 4, 5] -> [3, 4, 5, 1, 2].
@@ -420,8 +541,13 @@ Given a singly linked list, sort the list in O(n log n) time complexity.
 >
 > Output: -1
 
-## [d26](https://github.com/lisy0123/Study/blob/master/Mail_programming/d26)
+  </div>
+</details>
 
+<details>
+  <summary> d26 </summary>
+  <div markdown="1">
+    
 정수 배열이 주어지면 , 배열 안의 모든 정수의 최대 공약수(GCD)를 구하시오.
 
 시간 복잡도 제한 O(n)
@@ -436,8 +562,13 @@ Given an integer array, find the greatest common denominator of all elements.
 >
 > Output: 2
 
-## [d27](https://github.com/lisy0123/Study/blob/master/Mail_programming/d27)
+  </div>
+</details>
 
+<details>
+  <summary> d27 </summary>
+  <div markdown="1">
+    
 "./"과 "../" 이 포함된 파일 경로를 "./"과 "../"이 없는 유닉스 파일 경로로 바꾸시오. "./"는 현재의 위치를 뜻하고, "../"는 상위 디렉토리를 뜻합니다.
 
 Given a file path containing "./" and "../", convert the path to a unix standard file path that does not contain "./" and "../".
@@ -450,8 +581,13 @@ Given a file path containing "./" and "../", convert the path to a unix standard
 >
 > Output: "/usr/bin/"
 
-## [d28](https://github.com/lisy0123/Study/blob/master/Mail_programming/d28)
+  </div>
+</details>
 
+<details>
+  <summary> d28 </summary>
+  <div markdown="1">
+    
 정렬된 양수(positive integer) 배열이 주어지면, 배열 원소들의 합으로 만들수 없는 가장 작은 양수를 구하시오. 단, 시간복잡도는 O(n) 이여야 합니다.
 
 Given an array of positive integers, find the smallest positive integer that cannot be created by adding elements in the array.
@@ -474,8 +610,13 @@ Given an array of positive integers, find the smallest positive integer that can
 >
 > // 7 = 불가능
 
-## [d29](https://github.com/lisy0123/Study/blob/master/Mail_programming/d29)
+  </div>
+</details>
 
+<details>
+  <summary> d29 </summary>
+  <div markdown="1">
+    
 반복된 알파벳으로 이루어진 문자배열이 주어지면 연속으로 중복된 알파벳이 없도록 문자배열을 재배열하여 리턴하시오. 불가능 하다면 empty string을 리턴하시오.
 
 Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is impossible, return an empty string.
@@ -488,8 +629,13 @@ Given a string with repeated characters, rearrange the string so that no two adj
 >
 > Output: ""
 
-## [d30](https://github.com/lisy0123/Study/blob/master/Mail_programming/d30)
+  </div>
+</details>
 
+<details>
+  <summary> d30 </summary>
+  <div markdown="1">
+    
 주어진 정수를 2진법으로 나타내었을때 1의 갯수를 리턴하시오.
 
 Given an integer, count number of 1s in binary representation of an integer.
@@ -504,16 +650,26 @@ Given an integer, count number of 1s in binary representation of an integer.
 >
 > Output: 3
 
-## [d31](https://github.com/lisy0123/Study/blob/master/Mail_programming/d31)
+  </div>
+</details>
 
+<details>
+  <summary> d31 </summary>
+  <div markdown="1">
+    
 백만개의 정수가 들어있는 배열을 가장 빨리 정렬하시오. 모든 정수는 1조보다 작습니다.
 
 힌트) 퀵소트 아님.
 
 Sort an array with million integers.
 
-## [d32](https://github.com/lisy0123/Study/blob/master/Mail_programming/d32)
+  </div>
+</details>
 
+<details>
+  <summary> d32 </summary>
+  <div markdown="1">
+    
 이진 트리가 주어지면 루트 노드부터 레벨별로 프린트 하시오. 프린트 방식은 홀수 레벨은 왼쪽에서 오른쪽으로, 짝수 레벨은 오른쪽에서 왼쪽으로 프린트 하시오. 루트노드는 레벨 1입니다. 예제를 보시오.
 
 > 1
@@ -528,20 +684,35 @@ Sort an array with million integers.
 >
 > 프린트: 1, 3, 2, 4, 5, 6, 7.
 
-## [d33](https://github.com/lisy0123/Study/blob/master/Mail_programming/d33)
+  </div>
+</details>
 
+<details>
+  <summary> d33 </summary>
+  <div markdown="1">
+    
 스택(Stack)을 이용해서 큐(Queue)를 구현하시오.
 
 Implement a queue using stacks.
 
-## [d34](https://github.com/lisy0123/Study/blob/master/Mail_programming/d34)
+  </div>
+</details>
 
+<details>
+  <summary> d34 </summary>
+  <div markdown="1">
+    
 퀵정렬(quick sort)와 합병정렬(merge sort)이 차이점을 서술 하시오.
 
 Describe differences between quick sort and merge sort.
 
-## [d35](https://github.com/lisy0123/Study/blob/master/Mail_programming/d35)
+  </div>
+</details>
 
+<details>
+  <summary> d35 </summary>
+  <div markdown="1">
+    
 중복된 원소가 없는 정렬된 배열이 있습니다. 이 배열에서 원소의 값이 원소의 인덱스 값과 같다면 프린트 하시오. 시간복잡도 O(log n).
 
 Given a sorted array of unique values, find an element where its value is equal to the index.
@@ -558,26 +729,46 @@ Given a sorted array of unique values, find an element where its value is equal 
 >
 > Output: 3 // input[3] = 3
 
-## [d36](https://github.com/lisy0123/Study/blob/master/Mail_programming/d36)
+  </div>
+</details>
 
+<details>
+  <summary> d36 </summary>
+  <div markdown="1">
+    
 주어진 정수가 4의 거듭제곱인지 확인하시오.
 
 Given an integer, check if it is a power of 4.
 
-## [d37](https://github.com/lisy0123/Study/blob/master/Mail_programming/d37)
+  </div>
+</details>
 
+<details>
+  <summary> d37 </summary>
+  <div markdown="1">
+    
 이진탐색트리안에 X보다 크고 Y보다 작은 모든 노드 값을 프린트 하시오.
 
 Given a binary search tree, print all node values that are bigger than X and smaller than Y.
 
-## [d38](https://github.com/lisy0123/Study/blob/master/Mail_programming/d38)
+  </div>
+</details>
 
+<details>
+  <summary> d38 </summary>
+  <div markdown="1">
+    
 1~N 까지 있는 정수 배열에 원소 하나가 없어졌습니다. 없어진 원소의 값을 구하시오.
 
 Given an integer array of 1~N except one number, find the missing integer.
 
-## [d39](https://github.com/lisy0123/Study/blob/master/Mail_programming/d39)
+  </div>
+</details>
 
+<details>
+  <summary> d39 </summary>
+  <div markdown="1">
+    
 단방향 연결 리스트(singly linked list)가 주어지면 총 합이 0으로 되는 연결된 노드들을 뺀 뒤 남은 노드의 값을 프린트 하시오.
 
 Given a linked list, remove consecutive nodes that sum to zero. Print the values of leftover nodes.
@@ -594,8 +785,13 @@ Given a linked list, remove consecutive nodes that sum to zero. Print the values
 >
 > Output: 1
 
-## [d40](https://github.com/lisy0123/Study/blob/master/Mail_programming/d40)
+  </div>
+</details>
 
+<details>
+  <summary> d40 </summary>
+  <div markdown="1">
+    
 "Look and say" sequence (보고 말하는 수열)은 다음과 같습니다.
 
 1 - 1개의 1
@@ -612,20 +808,35 @@ Given a linked list, remove consecutive nodes that sum to zero. Print the values
 
 Given an integer N, print the first N numbers in "look and say" sequence.
 
-## [d41](https://github.com/lisy0123/Study/blob/master/Mail_programming/d41)
+  </div>
+</details>
 
+<details>
+  <summary> d41 </summary>
+  <div markdown="1">
+    
 정렬된 정수 배열이 주어지면, 발란스된 이진탐색트리로 바꾸시오.
 
 Convert a given integer array into a balanced binary search tree.
 
-## [d42](https://github.com/lisy0123/Study/blob/master/Mail_programming/d42)
+  </div>
+</details>
 
+<details>
+  <summary> d42 </summary>
+  <div markdown="1">
+    
 이진트리안에 모든 단말노드(leaf node)의 갯수를 구하시오. 트리의 루트노드가 주어집니다.
 
 Given a root node of a binary tree, count all leaf nodes.
 
-## [d43](https://github.com/lisy0123/Study/blob/master/Mail_programming/d43)
+  </div>
+</details>
 
+<details>
+  <summary> d43 </summary>
+  <div markdown="1">
+    
 이번주 문제는 인터뷰 팁입니다.
 
 1. 문제의 가장 효율적인 답을 못찾겠을때 어떻게 해야하나요?
@@ -633,14 +844,24 @@ Given a root node of a binary tree, count all leaf nodes.
 3. 답변은 무슨 언어로 쓰는게 제일 좋은가요?
 4. 답변 코드를 쓴 후 코드를 어떻게 설명하나요?
 
-## [d44](https://github.com/lisy0123/Study/blob/master/Mail_programming/d44)
+  </div>
+</details>
 
+<details>
+  <summary> d44 </summary>
+  <div markdown="1">
+    
 정수 배열과 정수 K가 주어지면 원소 3개의 합으로 K가 만들어지는지 체크하시오.
 
 Given an integer array and an integer K, check if sum of 3 elements from the array equals to K.
 
-## [d45](https://github.com/lisy0123/Study/blob/master/Mail_programming/d45)
+  </div>
+</details>
 
+<details>
+  <summary> d45 </summary>
+  <div markdown="1">
+    
 양수 K가 주어지면 K 길이의 이진법 숫자를 모두 프린트하시오. 단, 연속으로 1이 있으면 안됩니다.
 
 Given an integer K, print all binary strings of length K without consecutive 1s.
@@ -649,8 +870,13 @@ Given an integer K, print all binary strings of length K without consecutive 1s.
 >
 > Output: 00000 00001 00010 00100 00101 01000 01001 01010 10000 10001 10010 10100 10101
 
-## [d46](https://github.com/lisy0123/Study/blob/master/Mail_programming/d46)
+  </div>
+</details>
 
+<details>
+  <summary> d46 </summary>
+  <div markdown="1">
+    
 문자배열이 주어지면, 주어진 문자로 만들수 있는 모든 문자배열 조합을 프린트 하시오.
 
 Given a string, print all permutations of characters in the string.
@@ -659,8 +885,13 @@ Given a string, print all permutations of characters in the string.
 >
 > Output: ABC ACB BAC BCA CBA CAB
 
-## [d47](https://github.com/lisy0123/Study/blob/master/Mail_programming/d47)
+  </div>
+</details>
 
+<details>
+  <summary> d47 </summary>
+  <div markdown="1">
+    
 0, 1, 2로 이루어진 배열을 가장 효율적으로 정렬 하시오. 시간복잡도 O(n).
 
 Given an array consisting of 0, 1 and 2s, sort this array.
@@ -669,18 +900,19 @@ Given an array consisting of 0, 1 and 2s, sort this array.
 >
 > Output: [0, 0, 0, 0, 1, 1, 2, 2]
 
-## [d48](https://github.com/lisy0123/Study/blob/master/Mail_programming/d48)
+  </div>
+</details>
 
+<details>
+  <summary> d48 </summary>
+  <div markdown="1">
+    
 단일 연결 리스트(singly linked list)가 주어지면 리스트의 중간 노드 값을 프린트 하시오. (제일 효율적인 방법으로)
 
 Given a singly linked list, print the value of the node that is in the middle of the list.
 
-## [d49](https://github.com/lisy0123/Study/blob/master/Mail_programming/d49)
-
-
-
-:label:  Updating...
-
+  </div>
+</details>
 
 
 [↩️ Go Back](https://github.com/lisy0123/Study)
