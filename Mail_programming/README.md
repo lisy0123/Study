@@ -113,13 +113,6 @@ Given an integer, check if it is a palindrome.
   </div>
 </details>
 
-  </div>
-</details>
-
-<details>
-  <summary> :fountain_pen: In progress </summary>
-  <div markdown="1">
-
 <details>
   <summary> d05 </summary>
   <div markdown="1">
@@ -134,6 +127,13 @@ Given an array of integers and a target integer, find two indexes of the array e
 
   </div>
 </details>
+
+  </div>
+</details>
+
+<details>
+  <summary> :fountain_pen: In progress </summary>
+  <div markdown="1">
 
 <details>
   <summary> d06 </summary>
