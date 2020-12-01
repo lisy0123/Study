@@ -5,7 +5,7 @@ void check(int *sed, int a)
     int sum = sed[0];
     int res = sed[0];
 
-    for (int i = 1; i<=a; i++)
+    for (int i = 1; i <= a; i++)
     {
         if (sed[i] < sum + sed[i])
             sum +=sed[i];
@@ -25,15 +25,29 @@ int num(int res, int s)
         return (res);
 }
 
-void result(char *c, int a)
+void result(char *c)
 {
-    a -= 1;
-    int sed[a];
-    int s = 0;
-    int res = 0;
-    int i = 0;
+	int a;
+    int s;
+    int res;
+    int i;
+	char *tmp;
 
-    for (;*c; c++)
+	a = 1;
+	tmp = c;
+	for (; *c; c++)
+	{
+		if (*c == ',')
+			a++;
+	}
+
+	int sed[a];
+
+	s = 0;
+	i = 0;
+	res = 0;
+	c = tmp;
+    for (; *c; c++)
     {
         if (*c == '-')
         {
@@ -68,7 +82,7 @@ void result(char *c, int a)
         }
     }
     sed[i] = num(res, s);
-    if (a != i)
+    if (--a != i)
     {
         printf("Input Array Nums Error");
         return;
@@ -78,16 +92,12 @@ void result(char *c, int a)
 
 int main()
 {
-    int a;
     int k;
+    char *c;
 
-    printf("Input Array Nums: ");
-    scanf("%d", &a);
-    k = a * 2 - 2;
-    char c[k];
 	printf("       ex) 1,2,3... << Write without space\n");
     printf("Input: ");
     scanf("%s", c);
-    result(c, a);
+    result(c);
     return (0);
 }
