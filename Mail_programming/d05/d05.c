@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void target(int a, int *num, int tg)
+void	target(int a, int *num, int tg)
 {
 	int i;
 	int j;
