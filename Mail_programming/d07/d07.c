@@ -4,16 +4,18 @@
 int main()
 {
 	char *c;
-	int k;
+	int len;
 
-	printf("Input:");
-	c = malloc(sizeof(char)*100);
-	scanf("%s",c);
-	k = 0;
-	while (c[k] != '\0')
-		k++;
-	for (; k >= 0; k--)
-		printf("%c",c[k]);
+	printf("Input: ");
+	c = malloc(sizeof(char) * 100);
+	scanf("%[^\n]", c);
+	
+	len = 0;
+	while (c[len])
+		len++;
+	printf("Output: ");
+	for (; len >= 0; len--)
+		printf("%c",c[len]);
 	free(c);
 	return (0);
 }

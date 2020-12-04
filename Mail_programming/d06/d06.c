@@ -1,91 +1,48 @@
 #include <stdio.h>
 
-void	error(int i)
-{
-	if (i == 1)
-		printf("Type error!");
-}
-
-int	sum_fb(int *n, int x)
-{
-	int i;
-	int res;
-	int count;
-
-	res = n[0];
-	count = 0;
-	for (i = 0; i < x; i++)
-	{
-		if (res > n[i])
-		{
-			count = i;
-			res = n[i];
-		}
-	}
-	printf("%d\n\n", count);
-	return (count);
-}
-
 void	solved(int *n_f, int *n_b, int x)
 {
-	int start;
-	int end;
 	int i;
 	int j;
-	int k;
-	int a;
 	int count;
 
-	count = x;
-	i = sum_fb(n_f, x);
-	start = n_f[i];
-	end = n_b[sum_fb(n_b, x)];
-	printf("{");
-	while (count > 0)
+	count = 0;
+	i = 0;
+	while (i < (x - count))
 	{
-		a = 1;
-		for (j = 0; j < x; j++)
+		if ((i + 1) < (x - count))
 		{
-			printf("::%d %d %d %d\n", n_f[j], n_b[j], start, end);
-			if (n_f[j] <= end && n_b[j] > end)
+			if (n_b[i] >= n_f[i + 1])
 			{
-				end = n_b[j];
-				n_b[j] = 0;
-			}
-			else if (n_b[j] <= end)
-			{
-				n_b[j] = 0;
-				count--;
-			}
-			if (n_f[j] > start)
-			{
-				if (n_f[j] <= end)
-					n_f[j] = 999;
-				if (n_b[j] >= end && n_f[j] == 999)
+				count++;
+				if (n_b[i] < n_b[i + 1])
+					n_b[i] = n_b[i + 1];
+				if (n_f[i] > n_f[i + 1])
+					n_f[i] = n_f[i + 1];
+				for (j = (i + 1); j < (x - count); j++)
 				{
-					end = n_b[j];
-					n_b[j] = 0;
+					if ((j + 1) <= (x - count))
+					{
+						n_f[j] = n_f[j + 1];
+						n_b[j] = n_b[j + 1];
+					}
 				}
+				i = 0;
 			}
-			else if (n_f[j] == 999)
-			{
-				count--;
-				a++;
-			}
-			printf("!!! %d %d %d \n", a, x, count);
-			if (a == x)
-			{
-				start = n_f[j];
-				end = n_b[j];
-			}
+			else
+				i++;
 		}
-		printf("{%d,%d},", start, end);
-		n_f[i] = 999;
-		i = sum_fb(n_f, x);
-		start = n_f[i];
-		end = n_b[sum_fb(n_b, x)];
-		count--;
+		else
+			i++;
 	}
+	printf("{");
+	for (i = 0; i < (x - count); i++)
+	{
+		printf("{%d,%d}", n_f[i], n_b[i]);
+		if (i < (x - count - 1))
+			printf(", ");
+	}
+	printf("}");
 }
 
 void	res(char *s)
@@ -105,13 +62,11 @@ void	res(char *s)
 	int x;
 	int y;
 	int res;
-	int count;
 
 	res = 0;
 	sw = 0;
 	x = 0;
 	y = 0;
-	count = 0;
 	for (; *s; s++)
 	{
 		if (*s == '{')
@@ -142,14 +97,14 @@ void	res(char *s)
 				s++;
 			else
 			{
-				error(1);
+				printf("Error!");
 				return;
 			}
 			res = 0;
 		}
 		else
 		{
-			error(1);
+			printf("Error!");
 			return;
 		}
 	}
@@ -167,6 +122,5 @@ int	main ()
 
 	printf("Output: ");
 	res(s);
-	printf("");
 	return (0);
 }
