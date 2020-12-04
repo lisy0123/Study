@@ -128,13 +128,6 @@ Given an array of integers and a target integer, find two indexes of the array e
   </div>
 </details>
 
-  </div>
-</details>
-
-<details>
-  <summary> :fountain_pen: In progress </summary>
-  <div markdown="1">
-
 <details>
   <summary> d06 </summary>
   <div markdown="1">
@@ -168,6 +161,13 @@ Reverse all the words in the given string.
 
   </div>
 </details>
+
+  </div>
+</details>
+
+<details>
+  <summary> :fountain_pen: In progress </summary>
+  <div markdown="1">
 
 <details>
   <summary> d08 </summary>
