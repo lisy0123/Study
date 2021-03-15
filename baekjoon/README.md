@@ -6,7 +6,7 @@ This is **[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem solving col
 
 
 
-### Representative solution
+### Recommended solution
 
 - **yet**
 

@@ -4,7 +4,7 @@
 
 **[42 Silicon Valley](https://www.42.us.org)** is a college-level, tuition-free, computer programming school with a peer-to-peer learning environment. There are 42 campus around the world, like Paris, Seoul, etc...
 
-### Representative project
+### Recommended project
 
 - **[Sastantua (Pyramid pattern) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/sastantua/ex00)**
 - **[Rush01 (Sudoku) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/rush01/ex00)**
@@ -30,7 +30,7 @@ It's a summary of Professor Andrew Ng's Kocera Machine Learning lecture in Korea
 
 Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2020/ENU/Maya-Tech-Docs/PyMel/index.html) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**.
 
-### Representative tool
+### Recommended tool
 
 - **My use**
 - **Human auto rigging**
