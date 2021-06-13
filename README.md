@@ -6,13 +6,11 @@
 
 ### Recommended project
 
-- **[Sastantua (Pyramid pattern) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/sastantua/ex00)**
-- **[Rush01 (Sudoku) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/rush01/ex00)**
-- **[Rush02 (Shape detection) - Piscine](https://github.com/lisy0123/42/tree/master/Piscine/rush02/ex00)**
+- **Sastantua (Pyramid pattern) - Piscine**
+- **Rush01 (Sudoku) - Piscine**
+- **Rush02 (Shape detection) - Piscine**
 
-- **[Fillit (Tetriminos) - Cadet_old](https://github.com/lisy0123/42/tree/master/Cadet_old/fillit)**
-- ~~**[Fdf - Cadet old](https://github.com/lisy0123/42/tree/master/Cadet_old/fdf)**~~
-- ~~**[Cub3D - Cadet new](https://github.com/lisy0123/42/tree/master/Cadet_new/cub3D)**~~
+- **Fillit (Tetriminos) - Cadet_old**
 
 :bulb: Rechecking...
 
