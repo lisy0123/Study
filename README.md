@@ -39,25 +39,15 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 ---
 
-## :four: [Quiz_app_test](https://github.com/lisy0123/quiz_app_test)
+## :four: [Baekjoon](https://github.com/lisy0123/Study/blob/master/baekjoon)
 
-:label:  Updating...
-
----
-
-## :five: Python
-
-:label:  Updating...
+This is **[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem solving collection.
 
 ---
 
-## :six: [Mail_programming](https://github.com/lisy0123/Study/blob/master/Mail_programming)
+## :five: [Mail_programming](https://github.com/lisy0123/Study/blob/master/Mail_programming)
 
 **[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
 
----
 
-## :seven: [Baekjoon](https://github.com/lisy0123/Study/blob/master/baekjoon)
-
-This is **[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem solving collection.
 
