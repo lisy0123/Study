@@ -4,6 +4,14 @@
 
 **[42 Silicon Valley](https://www.42.us.org)** is a college-level, tuition-free, computer programming school with a peer-to-peer learning environment. There are 42 campus around the world, like Paris, Seoul, etc...
 
+### Recommended project
+
+- **Sastantua (Pyramid pattern) - Piscine**
+- **Rush01 (Sudoku) - Piscine**
+- **Rush02 (Shape detection) - Piscine**
+
+- **Fillit (Tetriminos) - Cadet_old**
+
 :bulb: Rechecking...
 
 ---
@@ -20,19 +28,24 @@ Weather app with **[React Native](https://reactnative.dev/)**
 
 Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2020/ENU/Maya-Tech-Docs/PyMel/index.html) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**.
 
+### Recommended project
+
+- **Hand auto rigging**
+- **My use**
+
 :label:  Updating...
 
 ---
 
 ## :four: [Python](https://github.com/lisy0123/Study/tree/master/python)
 
-This is a collection of miscellaneous things about python.
+A collection of miscellaneous things about python.
 
 ---
 
 ## :five: [Baekjoon](https://github.com/lisy0123/Study/blob/master/baekjoon)
 
-This is **[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem-solving collection.
+**[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem-solving collection.
 
 ---
 

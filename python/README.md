@@ -1,18 +1,18 @@
 # Python
 
-This is a collection of miscellaneous things about python.
+A collection of miscellaneous things about python.
 
 
 
 ## [:video_game: Pygame](https://github.com/lisy0123/Study/tree/master/python/Pygame)
 
-Making games with pygame
+Making games with **[pygame](https://www.pygame.org)**
 
-[**:racing_car: RacingCar**](https://github.com/lisy0123/Study/tree/master/python/Pygame/RacingCar)
+- **:racing_car: RacingCar**
 
-[**:rocket: Shooting**](https://github.com/lisy0123/Study/tree/master/python/Pygame/Shooting)
+- **:rocket: Shooting**
 
-[**:space_invader: Spaceship**](https://github.com/lisy0123/Study/tree/master/python/Pygame/Spaceship)
+- **:space_invader: Spaceship**
 
 ---
 
@@ -24,7 +24,7 @@ Algorithms studied by books, googling, etc.
 
 ## [:book: CodeUp](https://github.com/lisy0123/Study/tree/master/python/codeup)
 
-CodeUp's algorithm problem-solving collection
+**[CodeUp](https://codeup.kr/index.php)**'s algorithm problem-solving collection.
 
 
 
