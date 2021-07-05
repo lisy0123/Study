@@ -18,13 +18,7 @@ Making games with **[pygame](https://www.pygame.org)**
 
 ## [:memo: algorithms](https://github.com/lisy0123/Study/tree/master/python/algorithms)
 
-Algorithms studied by books, googling, etc.
-
-----
-
-## [:book: CodeUp](https://github.com/lisy0123/Study/tree/master/python/codeup)
-
-**[CodeUp](https://codeup.kr/index.php)**'s algorithm problem-solving collection.
+Algorithms studied by **[CodeUp](https://codeup.kr/index.php)**, books, googling, etc.
 
 
 

@@ -1,6 +1,6 @@
-# algorithms
+# CodeUp
 
-Algorithms studied by books, googling, etc.
+**[CodeUp](https://codeup.kr/index.php)**'s algorithm problem-solving collection.
 
 
 
