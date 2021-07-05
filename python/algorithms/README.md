@@ -1,8 +1,6 @@
-# CodeUp
+# algorithms
 
-**[CodeUp](https://codeup.kr/index.php)**'s algorithm problem-solving collection.
-
-
+Algorithms studied by **[CodeUp](https://codeup.kr/index.php)**, books, googling, etc.
 
 ### Recommended solution
 
