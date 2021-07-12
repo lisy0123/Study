@@ -181,7 +181,7 @@ def runGame():
 			destroySound = pygame.mixer.Sound(random.choice(explosionSound))
 			isShot = False
 
-			rockSpeed += 0.3
+			rockSpeed += 0.1
 			if rockSpeed >= 10:
 				rockSpeed = 10
 
