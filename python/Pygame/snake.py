@@ -29,7 +29,7 @@ class Python(object):
 	def create(self):
 		self.length = 2
 		self.positions = [((WINDOW_WIDTH / 2), (WINDOW_HEIGHT / 2))]
-		self.direction =random.choice([UP, DOWN, LEFT, RIGHT])
+		self.direction = random.choice([UP, DOWN, LEFT, RIGHT])
 
 	def control(self, xy):
 		if (xy[0] * -1, xy[1] * -1) == self.direction:

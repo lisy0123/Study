@@ -104,7 +104,6 @@ def runGame():
 			if event.type in [pygame.QUIT]:
 				pygame.quit()
 				sys.exit()
-
 			if event.type in [pygame.KEYDOWN]:
 				if event.key == pygame.K_LEFT:
 					fighterX -= 5
