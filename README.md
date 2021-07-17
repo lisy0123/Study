@@ -16,15 +16,7 @@
 
 ---
 
-## :two: [React_Native_Weather_App](https://github.com/lisy0123/react_native_weather)
-
-Weather app with **[React Native](https://reactnative.dev/)**
-
-:label:  Updating...
-
----
-
-## :three: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
+## :two: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
 
 Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2020/ENU/Maya-Tech-Docs/PyMel/index.html) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**.
 
@@ -37,9 +29,21 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 ---
 
+## :three: [Nomadcoders](https://github.com/lisy0123/react_native_weather)
+
+Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)**
+
+### Recommended project
+
+- **React_Native_Weather_App**
+
+:label:  Updating...
+
+---
+
 ## :four: [Python](https://github.com/lisy0123/Study/tree/master/python)
 
-A collection of miscellaneous things about python.
+A collection of miscellaneous studies about python.
 
 ---
 
