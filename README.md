@@ -29,7 +29,7 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 ---
 
-## :three: [Nomadcoders](https://github.com/lisy0123/react_native_weather)
+## :three: [Nomadcoders](https://github.com/lisy0123/Nomadcoders)
 
 Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)**
 
