@@ -33,10 +33,6 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)**
 
-### Recommended project
-
-- **React_Native_Weather_App**
-
 :label:  Updating...
 
 ---
