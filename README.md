@@ -33,6 +33,10 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)**
 
+### Recommended project
+
+- **Final Challenge - Web Scrrapper**
+
 :label:  Updating...
 
 ---
