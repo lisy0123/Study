@@ -16,7 +16,15 @@
 
 ---
 
-## :two: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
+## :two: [Boostcamp_AI_Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)
+
+Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
+
+:label: Updating...
+
+---
+
+## :three: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
 
 Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2020/ENU/Maya-Tech-Docs/PyMel/index.html) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**.
 
@@ -29,7 +37,7 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 ---
 
-## :three: [Nomadcoders](https://github.com/lisy0123/Nomadcoders)
+## :four: [Nomadcoders](https://github.com/lisy0123/Nomadcoders)
 
 Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)**
 
@@ -40,10 +48,6 @@ Studying python, javascript, react, typescript, ect with **[nomadcoders](https:/
 :label:  Updating...
 
 ---
-
-## :four: [Python](https://github.com/lisy0123/Study/tree/master/python)
-
-A collection of miscellaneous studies about python.
 
 ---
 
@@ -56,6 +60,12 @@ A collection of miscellaneous studies about python.
 ## :six: [Mail_programming](https://github.com/lisy0123/Study/blob/master/Mail_programming)
 
 **[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
+
+---
+
+## :seven: [ETC](https://github.com/lisy0123/Study/tree/master/ETC)
+
+A collection of miscellaneous studies about python, java, etc.
 
 ---
 
