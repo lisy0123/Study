@@ -10,7 +10,7 @@ void	target(int a, int *num, int tg)
 		j = i;
 		for (; j <= a; j++)
 		{
-			printf("%d %d %d\n", num[i], num[j], num[i]+num[j]);
+			// printf("%d %d %d\n", num[i], num[j], num[i]+num[j]);
 			if ((num[i] + num[j]) == tg)
 			{
 				printf("[%d %d]", i, j);
