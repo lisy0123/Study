@@ -7,6 +7,7 @@
 ### Recommended project
 
 - **Sastantua (Pyramid pattern) - Piscine**
+
 - **Rush01 (Sudoku) - Piscine**
 - **Rush02 (Shape detection) - Piscine**
 
@@ -19,6 +20,10 @@
 ## :two: [Boostcamp_AI_Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
+
+### Recommended project
+
+- **Mask Image Classification**
 
 :label: Updating...
 
