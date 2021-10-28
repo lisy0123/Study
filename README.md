@@ -25,6 +25,8 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 - **Mask Image Classification**
 
+> **:point_right: MOREOVER: [DL Self-study](https://github.com/lisy0123/DL_Study)**
+
 :label: Updating...
 
 ---
