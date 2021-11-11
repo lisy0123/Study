@@ -6,10 +6,6 @@
 >
 > *Make same result, including special symbols.*
 
-### Recommended solution
-
-- **d03**
-
 ---
 <details>
   <summary> :clipboard: Completed </summary>

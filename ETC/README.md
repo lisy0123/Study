@@ -2,7 +2,25 @@
 
 A collection of miscellaneous studies about python, java, etc.
 
-## :one: Python
+## :one: Tetris Network Multiplayer
+
+:label:  Updating...
+
+---
+
+## :two: [Baekjoon](https://github.com/lisy0123/Study/blob/master/baekjoon)
+
+**[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem-solving collection.
+
+---
+
+## :three: [Mail_programming](https://github.com/lisy0123/Study/blob/master/Mail_programming)
+
+**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
+
+---
+
+## :four: Python
 
 ### [:space_invader: Pygame](https://github.com/lisy0123/Study/tree/master/ETC/python/Pygame)
 
@@ -13,20 +31,6 @@ Drawing, Snake, RacingCar, Shooting, Spaceship, etc.
 ### [:memo: algorithms](https://github.com/lisy0123/Study/tree/master/ETC/python/algorithms)
 
 Algorithms studied by **[CodeUp](https://codeup.kr/index.php)**, books, googling, etc.
-
-:label: Updating...
-
----
-
-## :two: JAVA
-
-### :video_game: ​Tetris Network Multiplayer
-
-:label: Updating...
-
-### Recommended solution
-
-- **yet**
 
 [↩️ Go Back](https://github.com/lisy0123/Study)
 

@@ -62,25 +62,11 @@ Studying python, javascript, react, typescript, ect with **[nomadcoders](https:/
 
 It's a summary of Professor Andrew Ng's Kocera Machine Learning lecture in Korean. Although it does not include all the contents of the lecture, the necessary explanations will be further explained even if they are not included in the lecture.
 
-:label:  Updating...
+:bulb: Rechecking...
 
 ---
 
----
+## :six: [ETC](https://github.com/lisy0123/Study/tree/master/ETC)
 
-## :six: [Baekjoon](https://github.com/lisy0123/Study/blob/master/baekjoon)
-
-**[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem-solving collection.
-
----
-
-## :seven: [Mail_programming](https://github.com/lisy0123/Study/blob/master/Mail_programming)
-
-**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
-
----
-
-## :eight: [ETC](https://github.com/lisy0123/Study/tree/master/ETC)
-
-A collection of miscellaneous studies about python, java, etc.
+A collection of miscellaneous studies about Baekjoon, Tetris, Python, JS, etc.
 
