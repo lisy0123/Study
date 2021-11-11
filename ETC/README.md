@@ -8,13 +8,13 @@ A collection of miscellaneous studies about python, java, etc.
 
 ---
 
-## :two: [Baekjoon](https://github.com/lisy0123/Study/blob/master/baekjoon)
+## :two: [Baekjoon](https://github.com/lisy0123/Study/tree/master/ETC/baekjoon)
 
 **[Baekjoon](https://www.acmicpc.net/)**'s algorithm problem-solving collection.
 
 ---
 
-## :three: [Mail_programming](https://github.com/lisy0123/Study/blob/master/Mail_programming)
+## :three: [Mail_programming](https://github.com/lisy0123/Study/blob/master/ETC/Mail_programming)
 
 **[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
 
