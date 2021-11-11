@@ -4,25 +4,25 @@ A collection of miscellaneous studies about python, java, etc.
 
 ## :one: Python
 
-- **:space_invader: Pygame**
+### [:space_invader: Pygame](https://github.com/lisy0123/Study/tree/master/ETC/python/Pygame)
 
-  Making games with **[pygame](https://www.pygame.org)**
+Making games with **[pygame](https://www.pygame.org)**
 
-  Drawing, Snake, RacingCar, Shooting, Spaceship, etc.
+Drawing, Snake, RacingCar, Shooting, Spaceship, etc.
 
-- **:memo: algorithms**
+### [:memo: algorithms](https://github.com/lisy0123/Study/tree/master/ETC/python/algorithms)
 
-  Algorithms studied by **[CodeUp](https://codeup.kr/index.php)**, books, googling, etc.
+Algorithms studied by **[CodeUp](https://codeup.kr/index.php)**, books, googling, etc.
 
-  :label: Updating...
+:label: Updating...
 
 ---
 
 ## :two: JAVA
 
-- :video_game: ​**Tetris Network Multiplayer**
+### :video_game: ​Tetris Network Multiplayer
 
-  :label: Updating...
+:label: Updating...
 
 ### Recommended solution
 
