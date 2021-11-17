@@ -2,7 +2,7 @@
 
 A collection of miscellaneous studies about python, java, etc.
 
-## [:one: Tetris Network Multiplayer](https://github.com/lisy0123/Study/tree/master/ETC/Tetris_Network_Multiplayer)
+## :one: [Tetris Network Multiplayer](https://github.com/lisy0123/Study/tree/master/ETC/Tetris_Network_Multiplayer)
 
 :label:  Updating...
 

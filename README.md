@@ -17,7 +17,7 @@
 
 ---
 
-## :two: [Boostcamp_AI_Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)
+## :two: [Boostcamp AI Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
 
@@ -33,7 +33,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ---
 
-## :three: [Maya_Scripts](https://github.com/lisy0123/Maya_Scripts)
+## :three: [Maya Scripts](https://github.com/lisy0123/Maya_Scripts)
 
 Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2020/ENU/Maya-Tech-Docs/PyMel/index.html) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**.
 
