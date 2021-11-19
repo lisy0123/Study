@@ -9,6 +9,7 @@
 - **Sastantua (Pyramid pattern) - Piscine**
 
 - **Rush01 (Sudoku) - Piscine**
+
 - **Rush02 (Shape detection) - Piscine**
 
 - **Fillit (Tetriminos) - Cadet_old**
@@ -24,7 +25,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 ### Recommended project
 
 - **Mask Image Classification**
+
 - **Trash Object Detection Competition**
+
 - **Trash Object Segmentation Competition**
 
 > **:point_right: MOREOVER: [DL Self-study](https://github.com/lisy0123/DL_Study)**
