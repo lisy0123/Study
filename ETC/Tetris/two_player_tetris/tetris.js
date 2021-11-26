@@ -26,7 +26,7 @@ class Tetris
 			requestAnimationFrame(update);
 		};
 		update();
-		this.tetris.updateScore(0);
+		this.updateScore(0);
 	}
 
 	draw()
