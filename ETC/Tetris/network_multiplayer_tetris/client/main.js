@@ -1,13 +1,14 @@
 const tetrisManager = new TetrisManager(document);
 const localTetris = tetrisManager.createPlayer();
+localTetris.element.classList.add('local');
+localTetris.run();
 
-const connectionManager = new ConnectionManager();
+const connectionManager = new ConnectionManager(tetrisManager);
 connectionManager.connect('ws://localhost:9000');
 
 const keyListener = (event) => {
 	[
 		[37, 39, 40, 32],
-		[65, 68, 83, 13],
 	].forEach((key, index) => {
 		const player = localTetris.player;
 		if (event.type === 'keydown') {

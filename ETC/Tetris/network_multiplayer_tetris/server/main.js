@@ -1,23 +1,58 @@
 const WebSocketSever = require('ws').Server;
 const Session = require('./session');
 const Client = require('./client');
-
 const server = new WebSocketSever({port: 9000});
-
 const sessions = new Map;
 
-function createId(len = 6, chars = 'qwertyopasdfghjkzxcbnm0123456789')
-{
+function createId(len = 6, chars = 'qwertyopasdfghjkzxcbnm0123456789') {
 	let id = '';
 	while (len--) {
 		id += chars[Math.random() * chars.length | 0];
 	}
 	return id;
-};
+}
+
+function createClient(conn, id = createId()) {
+	return new Client(conn, id);
+}
+
+function createSession(id = createId()) {
+	if (sessions.has(id)) {
+		throw new Error(`Session ${id} already exists`);
+	}
+	
+	const session = new Session(id);
+
+	console.log('Creating session', session);
+	sessions.set(id, session);
+	return session;
+}
+
+function getSession(id) {
+	return sessions.get(id);
+}
+
+function broadcastSession(session) {
+	const clients = [...session.clients];
+	clients.forEach(client => {
+		client.send({
+			type: 'session-broadcast',
+			peers: {
+				you: client.id,
+				clients: clients.map(client => {
+					return {
+						id: client.id,
+						state: client.state,
+					}
+				}),
+			},
+		});
+	});
+}
 
 server.on('connection', conn=> {
 	console.log('Connection established');
-	const client = new Client(conn);
+	const client = createClient(conn);
 
 	conn.on('message', msg => {
 		msg = msg.toString('utf8');
@@ -25,20 +60,25 @@ server.on('connection', conn=> {
 		const data = JSON.parse(msg);
 
 		if (data.type === 'create-session') {
-			const id = createId();
-			const session = new Session(id);
+			const session = createSession();
 			session.join(client);
-			sessions.set(session.id, session);
+
+			client.state = date.state;
 			client.send({
 				type: 'session-created',
 				id: session.id
 			});
 		} else if (data.type === 'join-session') {
-			const session = sessions.get(data.id);
+			const session = getSession(data.id) || createSession(data.id);
 			session.join(client);
-		}
 
-		console.log('Session', sessions);
+			client.state = date.state;
+			broadcastSession(session);
+		} else if (data.type === 'state-update') {
+			const [prop, value] = data.state;
+			client.state[data.fragment][prop] = value;
+			client.broadcast(data);
+		}
 	});
 
 	conn.on('close', () => {
@@ -50,5 +90,7 @@ server.on('connection', conn=> {
 				sessions.delete(session.id);
 			}
 		}
+
+		broadcastSession(session);
 	});
 });

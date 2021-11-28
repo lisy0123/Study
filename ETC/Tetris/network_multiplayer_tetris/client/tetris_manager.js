@@ -27,4 +27,11 @@ class TetrisManager
 		this.instances.delete(tetris);
 		this.document.body.removeChild(tetris.element);
 	}
+
+	sortPlayer(tetris)
+	{
+		tetris.forEach(tetris => {
+			this.document.body.appendChild(tetris.element);
+		})
+	}
 }

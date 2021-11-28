@@ -1,4 +1,4 @@
-# Tetris Network Multiplayer
+# Tetris
 
 :label:  Updating...
 
