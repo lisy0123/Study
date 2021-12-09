@@ -1,6 +1,6 @@
 # ETC
 
-A collection of miscellaneous studies about python, java, etc.
+A collection of miscellaneous studies about Baekjoon, Tetris, Python, JS, etc.
 
 ## :one: [Baekjoon](https://github.com/lisy0123/Study/tree/master/ETC/baekjoon)
 
