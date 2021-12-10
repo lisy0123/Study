@@ -2,6 +2,8 @@
 
 ## :one: [3D Pose Estimation](https://github.com/lisy0123/3D_Pose_Estimation)
 
+**Human Anatomy & Rigging** + Studying **Pose Estimation & Unreal**
+
 :label: Updating...
 
 ---
@@ -35,7 +37,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ---
 
-## :four: [42SV](https://github.com/lisy0123/42)
+## :four: [42 Silicon Valley](https://github.com/lisy0123/42)
 
 **[42 Silicon Valley](https://www.42.us.org)** is a college-level, tuition-free, computer programming school with a peer-to-peer learning environment. There are 42 campus around the world, like Paris, Seoul, etc...
 
