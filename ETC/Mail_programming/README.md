@@ -1,6 +1,6 @@
 # Mail programming
 
-**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning. 
+**[Mail programming](https://mailprogramming.com/)**(It's closed now) is a site that e-mail coding problems and detailed solutions every Monday morning. 
 
 > :star: **Goal** :star:
 >

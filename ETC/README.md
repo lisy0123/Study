@@ -10,13 +10,13 @@ A collection of miscellaneous studies about Baekjoon, Tetris, Python, JS, etc.
 
 ## :two: [Mail_programming](https://github.com/lisy0123/Study/blob/master/ETC/Mail_programming)
 
-**[Mail programming](https://mailprogramming.com/)** is a site that e-mail coding problems and detailed solutions every Monday morning.
+**[Mail programming](https://mailprogramming.com/)**(It's closed now) is a site that e-mail coding problems and detailed solutions every Monday morning.
 
 ---
 
 ## :three: [ETC](https://github.com/lisy0123/Study/tree/master/ETC/ETC)
 
-Algorithms, Mini games with C++, JS, Python, etc.
+Algorithms and Mini games with Python, C++, C#, JS, etc.
 
 [↩️ Go Back](https://github.com/lisy0123/Study)
 
