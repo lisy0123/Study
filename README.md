@@ -15,6 +15,7 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 ### Recommended project
 
 - **Hand auto rigging**
+
 - **My use**
 
 :label:  Updating...
@@ -28,7 +29,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 ### Recommended project
 
 - **Mask Image Classification**
+
 - **Trash Object Detection Competition**
+
 - **Trash Object Segmentation Competition**
 
 >  **👉 MOREOVER: [DL Self-study](https://github.com/lisy0123/DL_Study)**
@@ -43,13 +46,13 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ### Recommended project
 
-- **Sastantua (Pyramid pattern) - Piscine**
-
-- **Rush01 (Sudoku) - Piscine**
+- **Fillit (Tetriminos) - Cadet_old**
 
 - **Rush02 (Shape detection) - Piscine**
 
-- **Fillit (Tetriminos) - Cadet_old**
+- **Rush01 (Sudoku) - Piscine**
+
+- **Sastantua (Pyramid pattern) - Piscine**
 
 :bulb: Rechecking...
 
@@ -60,6 +63,8 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)**
 
 ### Recommended project
+
+- **Zoom Clone**
 
 - **Momentum Clone**
 
@@ -75,7 +80,15 @@ It's a summary of Professor Andrew Ng's Kocera Machine Learning lecture in Korea
 
 ---
 
-## :seven: [ETC](https://github.com/lisy0123/Study/tree/master/ETC)
+## :seven: [LeetCode](https://github.com/lisy0123/LeetCode)
 
-A collection of miscellaneous studies about Baekjoon, Tetris, Python, JS, etc.
+A collection of algorithm problem solutions from **[LeetCode](https://leetcode.com/)**.
+
+:label:  Ready....
+
+---
+
+## :eight: [ETC](https://github.com/lisy0123/Study/tree/master/ETC)
+
+A collection of miscellaneous studies about **[Baekjoon](https://www.acmicpc.net/)**, **[Mail programming](https://mailprogramming.com/)**(It's closed now), Tetris, Python, JS, etc.
 
