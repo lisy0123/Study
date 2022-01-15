@@ -1,4 +1,4 @@
-print("Input Ex) [10,4,3,-1]")
+print ("Input Ex) [10,4,3,-1]")
 nums = input("Input: ")
 
 nums = list(map(int, nums[1:-1].split(",")))
@@ -10,6 +10,6 @@ for num in nums:
 		lst.append(num)
 
 try:
-	print (max(lst))
+	print ("Output:", max(lst))
 except:
-	print ("Does not exist.")
+	print ("Output: Does not exist.")

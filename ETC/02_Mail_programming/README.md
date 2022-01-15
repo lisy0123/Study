@@ -177,13 +177,6 @@ Given an integer array, find the second largest element.
   </div>
 </details>
 
-  </div>
-</details>
-
-<details>
-  <summary> :fountain_pen: In progress </summary>
-  <div markdown="1">
-
 <details>
   <summary> d09 </summary>
   <div markdown="1">
@@ -225,6 +218,13 @@ Given a string, find the longest substring that does not have duplicate characte
 
   </div>
 </details>
+
+  </div>
+</details>
+
+<details>
+  <summary> :fountain_pen: In progress </summary>
+  <div markdown="1">
 
 <details>
   <summary> d11 </summary>
