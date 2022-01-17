@@ -219,6 +219,53 @@ Given a string, find the longest substring that does not have duplicate characte
   </div>
 </details>
 
+<details>
+  <summary> d13 </summary>
+  <div markdown="1">
+
+정수 배열(int array)과 정수 N이 주어지면, N번째로 큰 배열 원소를 찾으시오.
+
+Given an integer array and integer N, find the Nth largest element in the array.
+
+> Input: [-1, 3, -1, 5, 4], 2
+>
+> Output: 4
+
+> Input: [2, 4, -2, -3, 8], 1
+>
+> Output: 8
+
+> Input: [-5, -3, 1], 3
+>
+> Output: -5
+
+  </div>
+</details>
+
+<details>
+  <summary> d14 </summary>
+  <div markdown="1">
+
+
+문자열 배열(string array)이 주어지면, 제일 긴 공통된 접두사(prefix)의 길이를 찾으시오.
+
+Given an array of strings, find the longest common prefix of all strings.
+
+> Input: [“apple”, “apps”, “ape”]
+>
+> Output: 2 // “ap”
+
+> Input: [“hawaii”, “happy”]
+>
+> Output: 2 // “ha”
+
+> Input: [“dog”, “dogs”, “doge”]
+>
+> Output: 3 // “dog”
+
+  </div>
+</details>
+
   </div>
 </details>
 
@@ -260,52 +307,6 @@ Given an integer array, make each element a product of all element values withou
 > Input: [1, 2, 3, 4, 5]
 >
 > Output: [120, 60, 40, 30, 24]
-
-  </div>
-</details>
-
-<details>
-  <summary> d13 </summary>
-  <div markdown="1">
-
-정수 배열(int array)과 정수 N이 주어지면, N번째로 큰 배열 원소를 찾으시오.
-
-Given an integer array and integer N, find the Nth largest element in the array.
-
-> Input: [-1, 3, -1, 5, 4], 2
->
-> Output: 4
-
-> Input: [2, 4, -2, -3, 8], 1
->
-> Output: 8
-
-> Input: [-5, -3, 1], 3
->
-> Output: -5
-
-  </div>
-</details>
-
-<details>
-  <summary> d14 </summary>
-  <div markdown="1">
-
-문자열 배열(string array)이 주어지면, 제일 긴 공통된 접두사(prefix)의 길이를 찾으시오.
-
-Given an array of strings, find the longest common prefix of all strings.
-
-> Input: [“apple”, “apps”, “ape”]
->
-> Output: 2 // “ap”
-
-> Input: [“hawaii”, “happy”]
->
-> Output: 2 // “ha”
-
-> Input: [“dog”, “dogs”, “doge”]
->
-> Output: 3 // “dog”
 
   </div>
 </details>
