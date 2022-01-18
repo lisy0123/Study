@@ -246,7 +246,6 @@ Given an integer array and integer N, find the Nth largest element in the array.
   <summary> d14 </summary>
   <div markdown="1">
 
-
 문자열 배열(string array)이 주어지면, 제일 긴 공통된 접두사(prefix)의 길이를 찾으시오.
 
 Given an array of strings, find the longest common prefix of all strings.
@@ -262,6 +261,50 @@ Given an array of strings, find the longest common prefix of all strings.
 > Input: [“dog”, “dogs”, “doge”]
 >
 > Output: 3 // “dog”
+
+  </div>
+</details>
+
+<details>
+  <summary> d22 </summary>
+  <div markdown="1">
+
+정렬(sort)된 정수 배열과 정수 n이 주어지면, 배열안에 n이 있는지 체크하시오. 시간복잡도를 최대한 최적화하시오.
+
+Given a sorted integer array and an integer N, check if N exists in the array.
+
+> Input: [1, 2, 3, 7, 10], 7
+>
+> Output: true
+
+> Input: [-5, -3, 0, 1], 0
+>
+> Output: true
+
+> Input: [1, 4, 5, 6, 8, 9], 10
+>
+> Output: false
+
+  </div>
+</details>
+
+<details>
+  <summary> d23 </summary>
+  <div markdown="1">
+
+정수 배열과 정수 k가 주어지면 모든 원소를 k칸씩 앞으로 옮기시오.
+
+Given an array and an integer K, shift all elements in the array K times.
+
+> Input: [1, 2, 3, 4, 5], k = 2
+>
+> Output: [3, 4, 5, 1, 2]
+
+> Input: [0, 1, 2, 3, 4], k = 1
+>
+> Output: [1, 2, 3, 4, 0]
+
+시간복잡도와 공간복잡도를 최대한 최적화 하시오.
 
   </div>
 </details>
@@ -464,50 +507,6 @@ Implement an O(n log n) time complexity sorting algorithm.
 > Input: [3, 1, 5, 6]
 >
 > Output: [1, 3, 5, 6]
-
-  </div>
-</details>
-
-<details>
-  <summary> d22 </summary>
-  <div markdown="1">
-
-정렬(sort)된 정수 배열과 정수 n이 주어지면, 배열안에 n이 있는지 체크하시오. 시간복잡도를 최대한 최적화하시오.
-
-Given a sorted integer array and an integer N, check if N exists in the array.
-
-> Input: [1, 2, 3, 7, 10], 7
->
-> Output: true
-
-> Input: [-5, -3, 0, 1], 0
->
-> Output: true
-
-> Input: [1, 4, 5, 6, 8, 9], 10
->
-> Output: false
-
-  </div>
-</details>
-
-<details>
-  <summary> d23 </summary>
-  <div markdown="1">
-
-정수 배열과 정수 k가 주어지면 모든 원소를 k칸씩 앞으로 옮기시오.
-
-Given an array and an integer K, shift all elements in the array K times.
-
-> Input: [1, 2, 3, 4, 5], k = 2
->
-> Output: [3, 4, 5, 1, 2]
-
-> Input: [0, 1, 2, 3, 4], k = 1
->
-> Output: [1, 2, 3, 4, 0]
-
-시간복잡도와 공간복잡도를 최대한 최적화 하시오.
 
   </div>
 </details>

@@ -6,12 +6,12 @@ void rotate(int[] arr, int k) {
   reverse(arr, 0, n-1);
 }
 
-void reverse(int[] noms, int start, int end) {
+void reverse(int[] nums, int start, int end) {
   while (start < end) {
     int temp = nums[start];
     nums[start] = nums[end];
     nums[end] = temp;
     start++;
-    end—;
+    end--;
   }
 }
