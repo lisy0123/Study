@@ -309,6 +309,21 @@ Given an array and an integer K, shift all elements in the array K times.
   </div>
 </details>
 
+<details>
+  <summary> d46 </summary>
+  <div markdown="1">
+
+문자배열이 주어지면, 주어진 문자로 만들수 있는 모든 문자배열 조합을 프린트 하시오.
+
+Given a string, print all permutations of characters in the string.
+
+> Input: ABC
+>
+> Output: ABC ACB BAC BCA CBA CAB
+
+  </div>
+</details>
+
   </div>
 </details>
 
@@ -876,21 +891,6 @@ Given an integer K, print all binary strings of length K without consecutive 1s.
 > Input:5
 >
 > Output: 00000 00001 00010 00100 00101 01000 01001 01010 10000 10001 10010 10100 10101
-
-  </div>
-</details>
-
-<details>
-  <summary> d46 </summary>
-  <div markdown="1">
-
-문자배열이 주어지면, 주어진 문자로 만들수 있는 모든 문자배열 조합을 프린트 하시오.
-
-Given a string, print all permutations of characters in the string.
-
-> Input: ABC
->
-> Output: ABC ACB BAC BCA CBA CAB
 
   </div>
 </details>
