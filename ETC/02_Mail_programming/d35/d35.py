@@ -1,10 +1,7 @@
 def sub(string, l):
 	if l == string[l]:
 			print(f"Output: {l} // input[{l}] = {l}")
-			return
-	elif l == len(string):
-		return
-	else:
+	elif l != len(string):
 		sub(string, l + 1)
 
 
