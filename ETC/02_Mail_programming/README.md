@@ -310,6 +310,29 @@ Given an array and an integer K, shift all elements in the array K times.
 </details>
 
 <details>
+  <summary> d35 </summary>
+  <div markdown="1">
+
+중복된 원소가 없는 정렬된 배열이 있습니다. 이 배열에서 원소의 값이 원소의 인덱스 값과 같다면 프린트 하시오. 시간복잡도 O(log n).
+
+Given a sorted array of unique values, find an element where its value is equal to the index.
+
+> Input: [-30, 1, 4, 60]
+>
+> Output: 1 // input[1] = 1
+
+> Input: [0, 3, 10, 60]
+>
+> Output: 0 // input[0] = 0
+
+> Input: [-40, -30, -20, 3]
+>
+> Output: 3 // input[3] = 3
+
+  </div>
+</details>
+
+<details>
   <summary> d46 </summary>
   <div markdown="1">
 
@@ -320,6 +343,21 @@ Given a string, print all permutations of characters in the string.
 > Input: ABC
 >
 > Output: ABC ACB BAC BCA CBA CAB
+
+  </div>
+</details>
+
+<details>
+  <summary> d47 </summary>
+  <div markdown="1">
+
+0, 1, 2로 이루어진 배열을 가장 효율적으로 정렬 하시오. 시간복잡도 O(n).
+
+Given an array consisting of 0, 1 and 2s, sort this array.
+
+> Input: [0, 1, 2, 2, 0, 0, 0, 1]
+>
+> Output: [0, 0, 0, 0, 1, 1, 2, 2]
 
   </div>
 </details>
@@ -732,29 +770,6 @@ Describe differences between quick sort and merge sort.
 </details>
 
 <details>
-  <summary> d35 </summary>
-  <div markdown="1">
-
-중복된 원소가 없는 정렬된 배열이 있습니다. 이 배열에서 원소의 값이 원소의 인덱스 값과 같다면 프린트 하시오. 시간복잡도 O(log n).
-
-Given a sorted array of unique values, find an element where its value is equal to the index.
-
-> Input: [-30, 1, 4, 60]
->
-> Output: 1 // input[1] = 1
-
-> Input: [0, 3, 10, 60]
->
-> Output: 0 // input[0] = 0
-
-> Input: [-40, -30, -20, 3]
->
-> Output: 3 // input[3] = 3
-
-  </div>
-</details>
-
-<details>
   <summary> d36 </summary>
   <div markdown="1">
 
@@ -891,21 +906,6 @@ Given an integer K, print all binary strings of length K without consecutive 1s.
 > Input:5
 >
 > Output: 00000 00001 00010 00100 00101 01000 01001 01010 10000 10001 10010 10100 10101
-
-  </div>
-</details>
-
-<details>
-  <summary> d47 </summary>
-  <div markdown="1">
-
-0, 1, 2로 이루어진 배열을 가장 효율적으로 정렬 하시오. 시간복잡도 O(n).
-
-Given an array consisting of 0, 1 and 2s, sort this array.
-
-> Input: [0, 1, 2, 2, 0, 0, 0, 1]
->
-> Output: [0, 0, 0, 0, 1, 1, 2, 2]
 
   </div>
 </details>
