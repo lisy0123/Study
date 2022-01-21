@@ -310,6 +310,44 @@ Given an array and an integer K, shift all elements in the array K times.
 </details>
 
 <details>
+  <summary> d27 </summary>
+  <div markdown="1">
+
+"./"과 "../" 이 포함된 파일 경로를 "./"과 "../"이 없는 유닉스 파일 경로로 바꾸시오. "./"는 현재의 위치를 뜻하고, "../"는 상위 디렉토리를 뜻합니다.
+
+Given a file path containing "./" and "../", convert the path to a unix standard file path that does not contain "./" and "../".
+
+> Input: "/usr/bin/../"
+>
+> Output: "/usr/"
+
+> Input: "/usr/./bin/./test/../"
+>
+> Output: "/usr/bin/"
+
+  </div>
+</details>
+
+<details>
+  <summary> d29 </summary>
+  <div markdown="1">
+
+반복된 알파벳으로 이루어진 문자배열이 주어지면 연속으로 중복된 알파벳이 없도록 문자배열을 재배열하여 리턴하시오. 불가능 하다면 empty string을 리턴하시오.
+
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is impossible, return an empty string.
+
+> Input: "aaabbc"
+>
+> Output: "ababac"
+
+> Input: "aaac"
+>
+> Output: ""
+
+  </div>
+</details>
+
+<details>
   <summary> d35 </summary>
   <div markdown="1">
 
@@ -626,25 +664,6 @@ Given an integer array, find the greatest common denominator of all elements.
 </details>
 
 <details>
-  <summary> d27 </summary>
-  <div markdown="1">
-
-"./"과 "../" 이 포함된 파일 경로를 "./"과 "../"이 없는 유닉스 파일 경로로 바꾸시오. "./"는 현재의 위치를 뜻하고, "../"는 상위 디렉토리를 뜻합니다.
-
-Given a file path containing "./" and "../", convert the path to a unix standard file path that does not contain "./" and "../".
-
-> Input: "/usr/bin/../"
->
-> Output: "/usr/"
-
-> Input: "/usr/./bin/./test/../"
->
-> Output: "/usr/bin/"
-
-  </div>
-</details>
-
-<details>
   <summary> d28 </summary>
   <div markdown="1">
 
@@ -669,25 +688,6 @@ Given an array of positive integers, find the smallest positive integer that can
 > // 6 = 1 + 2 + 3
 >
 > // 7 = 불가능
-
-  </div>
-</details>
-
-<details>
-  <summary> d29 </summary>
-  <div markdown="1">
-
-반복된 알파벳으로 이루어진 문자배열이 주어지면 연속으로 중복된 알파벳이 없도록 문자배열을 재배열하여 리턴하시오. 불가능 하다면 empty string을 리턴하시오.
-
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is impossible, return an empty string.
-
-> Input: "aaabbc"
->
-> Output: "ababac"
-
-> Input: "aaac"
->
-> Output: ""
 
   </div>
 </details>
