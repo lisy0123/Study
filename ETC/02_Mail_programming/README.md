@@ -348,6 +348,27 @@ Given a string with repeated characters, rearrange the string so that no two adj
 </details>
 
 <details>
+  <summary> d30 </summary>
+  <div markdown="1">
+
+주어진 정수를 2진법으로 나타내었을때 1의 갯수를 리턴하시오.
+
+Given an integer, count number of 1s in binary representation of an integer.
+
+시간 복잡도: O(log n)
+
+> Input: 6 // 110
+>
+> Output: 2
+
+> Input: 13 // 1101
+>
+> Output: 3
+
+  </div>
+</details>
+
+<details>
   <summary> d35 </summary>
   <div markdown="1">
 
@@ -688,27 +709,6 @@ Given an array of positive integers, find the smallest positive integer that can
 > // 6 = 1 + 2 + 3
 >
 > // 7 = 불가능
-
-  </div>
-</details>
-
-<details>
-  <summary> d30 </summary>
-  <div markdown="1">
-
-주어진 정수를 2진법으로 나타내었을때 1의 갯수를 리턴하시오.
-
-Given an integer, count number of 1s in binary representation of an integer.
-
-시간 복잡도: O(log n)
-
-> Input: 6 // 110
->
-> Output: 2
-
-> Input: 13 // 1101
->
-> Output: 3
 
   </div>
 </details>
