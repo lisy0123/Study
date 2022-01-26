@@ -310,6 +310,27 @@ Given an array and an integer K, shift all elements in the array K times.
 </details>
 
 <details>
+  <summary> d26 </summary>
+  <div markdown="1">
+
+정수 배열이 주어지면 , 배열 안의 모든 정수의 최대 공약수(GCD)를 구하시오.
+
+시간 복잡도 제한 O(n)
+
+Given an integer array, find the greatest common denominator of all elements.
+
+> Input: [3, 2, 1]
+>
+> Output: 1
+
+> Input: [2, 4, 6, 8]
+>
+> Output: 2
+
+  </div>
+</details>
+
+<details>
   <summary> d27 </summary>
   <div markdown="1">
 
@@ -659,27 +680,6 @@ Given a singly linked list, sort the list in O(n log n) time complexity.
 > Input: [4, 6, 7, 8, 1, 2, 3], 5
 >
 > Output: -1
-
-  </div>
-</details>
-
-<details>
-  <summary> d26 </summary>
-  <div markdown="1">
-
-정수 배열이 주어지면 , 배열 안의 모든 정수의 최대 공약수(GCD)를 구하시오.
-
-시간 복잡도 제한 O(n)
-
-Given an integer array, find the greatest common denominator of all elements.
-
-> Input: [3, 2, 1]
->
-> Output: 1
-
-> Input: [2, 4, 6, 8]
->
-> Output: 2
 
   </div>
 </details>
