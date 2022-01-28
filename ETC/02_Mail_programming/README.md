@@ -289,6 +289,21 @@ Given an array of strings, find the longest common prefix of all strings.
 </details>
 
 <details>
+  <summary> d21 </summary>
+  <div markdown="1">
+
+O(n log n)시간 복잡도를 가진 정수 배열 정렬 알고리즘을 구현하시오.
+
+Implement an O(n log n) time complexity sorting algorithm.
+
+> Input: [3, 1, 5, 6]
+>
+> Output: [1, 3, 5, 6]
+
+  </div>
+</details>
+
+<details>
   <summary> d22 </summary>
   <div markdown="1">
 
@@ -625,21 +640,6 @@ Given a 2D integer array, print all elements in a circular spiral shape starting
 > // 1 -> 2 -> 2 -> 2 -> …
 >
 > // arr[0]로 돌아오지 못합니다.
-
-  </div>
-</details>
-
-<details>
-  <summary> d21 </summary>
-  <div markdown="1">
-
-O(n log n)시간 복잡도를 가진 정수 배열 정렬 알고리즘을 구현하시오.
-
-Implement an O(n log n) time complexity sorting algorithm.
-
-> Input: [3, 1, 5, 6]
->
-> Output: [1, 3, 5, 6]
 
   </div>
 </details>
