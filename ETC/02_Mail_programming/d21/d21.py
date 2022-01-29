@@ -54,6 +54,8 @@ def merge_sort_basic(nums):
 
 def solution(strings):
 	nums = list(map(int, strings[1:-1].split(",")))
+#	res = merge_sort_basic(nums)
+#	print("Output:", res)
 	merge_sort(nums)
 
 
