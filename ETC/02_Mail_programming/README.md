@@ -243,6 +243,21 @@ Given two strings of equal length, check if two strings can be encrypted 1 to 1.
 </details>
 
 <details>
+  <summary> d12 </summary>
+  <div markdown="1">
+
+정수로된 배열이 주어지면, 각 원소가 자신을 뺀 나머지 원소들의 곱셈이 되게하라. 단, 나누기 사용 금지, O(n) 시간복잡도
+
+Given an integer array, make each element a product of all element values without itself.
+
+> Input: [1, 2, 3, 4, 5]
+>
+> Output: [120, 60, 40, 30, 24]
+
+  </div>
+</details>
+
+<details>
   <summary> d13 </summary>
   <div markdown="1">
 
@@ -486,21 +501,6 @@ Given an array consisting of 0, 1 and 2s, sort this array.
 <details>
   <summary> :fountain_pen: In progress </summary>
   <div markdown="1">
-
-<details>
-  <summary> d12 </summary>
-  <div markdown="1">
-
-정수로된 배열이 주어지면, 각 원소가 자신을 뺀 나머지 원소들의 곱셈이 되게하라. 단, 나누기 사용 금지, O(n) 시간복잡도
-
-Given an integer array, make each element a product of all element values without itself.
-
-> Input: [1, 2, 3, 4, 5]
->
-> Output: [120, 60, 40, 30, 24]
-
-  </div>
-</details>
 
 <details>
   <summary> d15 </summary>
@@ -923,6 +923,10 @@ Given a singly linked list, print the value of the node that is in the middle of
 
   </div>
 </details>
+
+> **Review List**
+>
+> - d21
 
 [↩️ Go Back](https://github.com/lisy0123/Study/tree/master/ETC)
 
