@@ -927,6 +927,7 @@ Given a singly linked list, print the value of the node that is in the middle of
 > **Review List**
 >
 > - d21
+> - python itertools, functools 정리
 
 [↩️ Go Back](https://github.com/lisy0123/Study/tree/master/ETC)
 
