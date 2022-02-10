@@ -466,6 +466,28 @@ Given a sorted array of unique values, find an element where its value is equal 
 </details>
 
 <details>
+  <summary> d36 </summary>
+  <div markdown="1">
+
+주어진 정수가 4의 거듭제곱인지 확인하시오.
+
+Given an integer, check if it is a power of 4.
+
+  </div>
+</details>
+
+<details>
+  <summary> d44 </summary>
+  <div markdown="1">
+
+정수 배열과 정수 K가 주어지면 원소 3개의 합으로 K가 만들어지는지 체크하시오.
+
+Given an integer array and an integer K, check if sum of 3 elements from the array equals to K.
+
+  </div>
+</details>
+
+<details>
   <summary> d46 </summary>
   <div markdown="1">
 
@@ -770,17 +792,6 @@ Describe differences between quick sort and merge sort.
 </details>
 
 <details>
-  <summary> d36 </summary>
-  <div markdown="1">
-
-주어진 정수가 4의 거듭제곱인지 확인하시오.
-
-Given an integer, check if it is a power of 4.
-
-  </div>
-</details>
-
-<details>
   <summary> d37 </summary>
   <div markdown="1">
 
@@ -880,17 +891,6 @@ Given a root node of a binary tree, count all leaf nodes.
 2. 문제를 받으면 바로 답변 코드를 종이에 적으면 되나요?
 3. 답변은 무슨 언어로 쓰는게 제일 좋은가요?
 4. 답변 코드를 쓴 후 코드를 어떻게 설명하나요?
-
-  </div>
-</details>
-
-<details>
-  <summary> d44 </summary>
-  <div markdown="1">
-
-정수 배열과 정수 K가 주어지면 원소 3개의 합으로 K가 만들어지는지 체크하시오.
-
-Given an integer array and an integer K, check if sum of 3 elements from the array equals to K.
 
   </div>
 </details>
