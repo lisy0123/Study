@@ -304,6 +304,25 @@ Given an array of strings, find the longest common prefix of all strings.
 </details>
 
 <details>
+  <summary> d16 </summary>
+  <div markdown="1">
+
+두개의 정렬된(sorted) 정수 링크드리스트(linked list)가 주어지면, 두 리스트를 합친 정렬된 링크드리스트를 만드시오.
+
+Given two sorted integer linked lists, merge the two linked lists. Merged linked list must also be sorted.
+
+> Input: 1->2->3, 1->2->3
+>
+> Output: 1->1->2->2->3->3
+
+> Input: 1->3->5->6, 2->4
+>
+> Output: 1->2->3->4->5->6
+
+  </div>
+</details>
+
+<details>
   <summary> d19 </summary>
   <div markdown="1">
 
@@ -566,25 +585,6 @@ Given a head node of a singly linked list, remove the Nth last element and retur
 > Input: 1, N=1
 >
 > Output: null
-
-  </div>
-</details>
-
-<details>
-  <summary> d16 </summary>
-  <div markdown="1">
-
-두개의 정렬된(sorted) 정수 링크드리스트(linked list)가 주어지면, 두 리스트를 합친 정렬된 링크드리스트를 만드시오.
-
-Given two sorted integer linked lists, merge the two linked lists. Merged linked list must also be sorted.
-
-> Input: 1->2->3, 1->2->3
->
-> Output: 1->1->2->2->3->3
-
-> Input: 1->3->5->6, 2->4
->
-> Output: 1->2->3->4->5->6
 
   </div>
 </details>
