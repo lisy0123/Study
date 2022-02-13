@@ -47,38 +47,30 @@ class LinkedList:
 
 
 def solution(nums):
-	n1, n2 = nums.split(",")
-	n1 = list(map(int, n1.split("->")))
-	n2 = list(map(int, n2.split("->")))
-	lst1 = LinkedList()
-	lst2 = LinkedList()
-	for num in n1:
-		lst1.append(num)
-	for num in n2:
-		lst2.append(num)
+	nums, k = nums.split(", N=")
+	nums = list(map(int, nums.split("->")))
+	lst = LinkedList()
+	for num in nums:
+		lst.append(num)
+	k = lst.size() - int(k)
 
-	lst3 = LinkedList()
-	lst3.append(lst1.first())
-	lst3.append(lst2.first())
-	
-	for x in range(max(lst1.size(), lst2.size())-1):
-		data = lst1.next()
-		if data:
-			lst3.append(data)
-		data = lst2.next()
-		if data:
-			lst3.append(data)
-	
-	print("Output: ", end='')
-	data = lst3.first()
+	data = lst.first()
+	for x in range(k):
+		data = lst.next()
+	data = lst.delete()
+
+	print("Output: ", end="")
+	data = lst.first()
 	if data:
-		print(data, end=' ')
+		print(data, end=" ")
 		while True:
-			data = lst3.next()
+			data = lst.next()
 			if data:
-				print(data, end= ' ')
+				print(data, end=" ")
 			else:
 				break
+	else:
+		print("null")
 
 
 nums = input("Input: ")
