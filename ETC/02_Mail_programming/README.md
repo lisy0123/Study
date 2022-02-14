@@ -428,6 +428,35 @@ Given an array and an integer K, shift all elements in the array K times.
 </details>
 
 <details>
+  <summary> d25 </summary>
+  <div markdown="1">
+
+정렬된 정수 배열이 있습니다. 이 배열의 모든 원소들을 오른쪽으로 랜덤하게 Z번 이동하였습니다.
+
+예를 들면 [1, 2, 3, 4, 5] -> [3, 4, 5, 1, 2].
+
+이런 배열과 정수 K 가 주어지면, 배열안에 K가 존재하는지 찾으시오.
+
+존재한다면 배열의 인덱스, 존재하지 않다면 -1 을 리턴하시오.
+
+시간복잡도 제한 O(log N).
+
+> Input: [3, 4, 5, 1, 2], 4
+>
+> Output: 1
+
+> Input: [2, 4, 5, 1], 3
+>
+> Output: -1
+
+> Input: [4, 6, 7, 8, 1, 2, 3], 5
+>
+> Output: -1
+
+  </div>
+</details>
+
+<details>
   <summary> d26 </summary>
   <div markdown="1">
 
@@ -673,35 +702,6 @@ Given a binary tree root node, reverse the tree horizontally.
 단방향 연결 리스트(Singly linked list)가 주어지면 O(n log n) 시간복잡도로 정렬하시오.
 
 Given a singly linked list, sort the list in O(n log n) time complexity.
-
-  </div>
-</details>
-
-<details>
-  <summary> d25 </summary>
-  <div markdown="1">
-
-정렬된 정수 배열이 있습니다. 이 배열의 모든 원소들을 오른쪽으로 랜덤하게 Z번 이동하였습니다.
-
-예를 들면 [1, 2, 3, 4, 5] -> [3, 4, 5, 1, 2].
-
-이런 배열과 정수 K 가 주어지면, 배열안에 K가 존재하는지 찾으시오.
-
-존재한다면 배열의 인덱스, 존재하지 않다면 -1 을 리턴하시오.
-
-시간복잡도 제한 O(log N).
-
-> Input: [3, 4, 5, 1, 2], 4
->
-> Output: 1
-
-> Input: [2, 4, 5, 1], 3
->
-> Output: -1
-
-> Input: [4, 6, 7, 8, 1, 2, 3], 5
->
-> Output: -1
 
   </div>
 </details>
