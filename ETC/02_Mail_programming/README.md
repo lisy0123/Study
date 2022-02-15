@@ -537,6 +537,17 @@ Given an integer, count number of 1s in binary representation of an integer.
 </details>
 
 <details>
+  <summary> d34 </summary>
+  <div markdown="1">
+
+퀵정렬(quick sort)와 합병정렬(merge sort)이 차이점을 서술 하시오.
+
+Describe differences between quick sort and merge sort.
+
+  </div>
+</details>
+
+<details>
   <summary> d35 </summary>
   <div markdown="1">
 
@@ -776,17 +787,6 @@ Sort an array with million integers.
 스택(Stack)을 이용해서 큐(Queue)를 구현하시오.
 
 Implement a queue using stacks.
-
-  </div>
-</details>
-
-<details>
-  <summary> d34 </summary>
-  <div markdown="1">
-
-퀵정렬(quick sort)와 합병정렬(merge sort)이 차이점을 서술 하시오.
-
-Describe differences between quick sort and merge sort.
 
   </div>
 </details>
