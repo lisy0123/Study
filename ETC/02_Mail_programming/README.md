@@ -593,6 +593,21 @@ Given an integer array and an integer K, check if sum of 3 elements from the arr
 </details>
 
 <details>
+  <summary> d45 </summary>
+  <div markdown="1">
+
+양수 K가 주어지면 K 길이의 이진법 숫자를 모두 프린트하시오. 단, 연속으로 1이 있으면 안됩니다.
+
+Given an integer K, print all binary strings of length K without consecutive 1s.
+
+> Input:5
+>
+> Output: 00000 00001 00010 00100 00101 01000 01001 01010 10000 10001 10010 10100 10101
+
+  </div>
+</details>
+
+<details>
   <summary> d46 </summary>
   <div markdown="1">
 
@@ -891,21 +906,6 @@ Given a root node of a binary tree, count all leaf nodes.
 2. 문제를 받으면 바로 답변 코드를 종이에 적으면 되나요?
 3. 답변은 무슨 언어로 쓰는게 제일 좋은가요?
 4. 답변 코드를 쓴 후 코드를 어떻게 설명하나요?
-
-  </div>
-</details>
-
-<details>
-  <summary> d45 </summary>
-  <div markdown="1">
-
-양수 K가 주어지면 K 길이의 이진법 숫자를 모두 프린트하시오. 단, 연속으로 1이 있으면 안됩니다.
-
-Given an integer K, print all binary strings of length K without consecutive 1s.
-
-> Input:5
->
-> Output: 00000 00001 00010 00100 00101 01000 01001 01010 10000 10001 10010 10100 10101
 
   </div>
 </details>
