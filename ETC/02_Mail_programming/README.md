@@ -582,6 +582,17 @@ Given an integer, check if it is a power of 4.
 </details>
 
 <details>
+  <summary> d38 </summary>
+  <div markdown="1">
+
+1~N 까지 있는 정수 배열에 원소 하나가 없어졌습니다. 없어진 원소의 값을 구하시오.
+
+Given an integer array of 1~N except one number, find the missing integer.
+
+  </div>
+</details>
+
+<details>
   <summary> d44 </summary>
   <div markdown="1">
 
@@ -813,17 +824,6 @@ Implement a queue using stacks.
 이진탐색트리안에 X보다 크고 Y보다 작은 모든 노드 값을 프린트 하시오.
 
 Given a binary search tree, print all node values that are bigger than X and smaller than Y.
-
-  </div>
-</details>
-
-<details>
-  <summary> d38 </summary>
-  <div markdown="1">
-
-1~N 까지 있는 정수 배열에 원소 하나가 없어졌습니다. 없어진 원소의 값을 구하시오.
-
-Given an integer array of 1~N except one number, find the missing integer.
 
   </div>
 </details>
