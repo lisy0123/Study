@@ -530,6 +530,35 @@ Given a file path containing "./" and "../", convert the path to a unix standard
 </details>
 
 <details>
+  <summary> d28 </summary>
+  <div markdown="1">
+
+정렬된 양수(positive integer) 배열이 주어지면, 배열 원소들의 합으로 만들수 없는 가장 작은 양수를 구하시오. 단, 시간복잡도는 O(n) 이여야 합니다.
+
+Given an array of positive integers, find the smallest positive integer that cannot be created by adding elements in the array.
+
+> Input: [1, 2, 3, 8]
+>
+> Output: 7
+>
+> // 1 = 1
+>
+> // 2 = 2
+>
+> // 3 = 3
+>
+> // 4 = 1 + 3
+>
+> // 5 = 2 + 3
+>
+> // 6 = 1 + 2 + 3
+>
+> // 7 = 불가능
+
+  </div>
+</details>
+
+<details>
   <summary> d29 </summary>
   <div markdown="1">
 
@@ -739,35 +768,6 @@ Given a binary tree root node, reverse the tree horizontally.
 단방향 연결 리스트(Singly linked list)가 주어지면 O(n log n) 시간복잡도로 정렬하시오.
 
 Given a singly linked list, sort the list in O(n log n) time complexity.
-
-  </div>
-</details>
-
-<details>
-  <summary> d28 </summary>
-  <div markdown="1">
-
-정렬된 양수(positive integer) 배열이 주어지면, 배열 원소들의 합으로 만들수 없는 가장 작은 양수를 구하시오. 단, 시간복잡도는 O(n) 이여야 합니다.
-
-Given an array of positive integers, find the smallest positive integer that cannot be created by adding elements in the array.
-
-> Input: [1, 2, 3, 8]
->
-> Output: 7
->
-> // 1 = 1
->
-> // 2 = 2
->
-> // 3 = 3
->
-> // 4 = 1 + 3
->
-> // 5 = 2 + 3
->
-> // 6 = 1 + 2 + 3
->
-> // 7 = 불가능
 
   </div>
 </details>
