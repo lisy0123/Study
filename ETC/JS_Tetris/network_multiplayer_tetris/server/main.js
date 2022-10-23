@@ -63,7 +63,7 @@ server.on('connection', conn=> {
 			const session = createSession();
 			session.join(client);
 
-			client.state = date.state;
+			client.state = data.state;
 			client.send({
 				type: 'session-created',
 				id: session.id
@@ -72,7 +72,7 @@ server.on('connection', conn=> {
 			const session = getSession(data.id) || createSession(data.id);
 			session.join(client);
 
-			client.state = date.state;
+			client.state = data.state;
 			broadcastSession(session);
 		} else if (data.type === 'state-update') {
 			const [prop, value] = data.state;

@@ -84,7 +84,8 @@ class Player
 
 	move(dir)
 	{
-		this.pos.x += dir
+		this.pos.x += dir;
+
 		if (this.arena.collide(this)) {
 			this.pos.x -= dir;
 			return;
