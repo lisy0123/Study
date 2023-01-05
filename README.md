@@ -26,13 +26,11 @@ Useful tools made with [**mel and pymel**](https://help.autodesk.com/cloudhelp/2
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
 
-### Recommended project
+### Preview
 
-- **Mask Image Classification**
+- **[Trash Object Detection Competition - Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/personal_report.md)**
 
-- **Trash Object Detection Competition**
-
-- **Trash Object Segmentation Competition**
+- **[Trash Object Segmentation Competition - Personal branch](https://github.com/lisy0123/semantic-segmentation-level2-cv-18/tree/main/_SUB)**
 
 >  **👉 MOREOVER: [DL Self-study](https://github.com/lisy0123/DL_Study)**
 
@@ -44,15 +42,11 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 **[42 Silicon Valley](https://www.42.us.org)** is a college-level, tuition-free, computer programming school with a peer-to-peer learning environment. There are 42 campus around the world, like Paris, Seoul, etc...
 
-### Recommended project
+### Preview
 
-- **Fillit (Tetriminos) - Cadet_old**
+- **[Sastantua (Pyramid pattern)](https://github.com/lisy0123/42/tree/master/Piscine/sastantua/ex00)** |  **[Rush02 (Shape detection)](https://github.com/lisy0123/42/tree/master/Piscine/rush02/ex00)** 
 
-- **Rush02 (Shape detection) - Piscine**
-
-- **Rush01 (Sudoku) - Piscine**
-
-- **Sastantua (Pyramid pattern) - Piscine**
+- **[Rush01 (Sudoku)](https://github.com/lisy0123/42/tree/master/Piscine/rush01/ex00)** | **[Fillit (Tetriminos)](https://github.com/lisy0123/42/tree/master/Cadet_old/fillit)**
 
 :bulb: Rechecking...
 
@@ -62,11 +56,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)**
 
-### Recommended project
+### Preview
 
-- **Zoom Clone**
-
-- **Momentum Clone**
+**[Momentum Clone](https://lisy0123.github.io/Momentum_Clone/)**  **|**  [**Zoom Clone**](https://codesandbox.io/s/zoom-03-llzq7)  **|**  [**Web Scrapper**](https://day-thirteen-and-fourteen--lisy0123.repl.co/)  **|**  **[TODOList](https://lisy0123.github.io/TODOList/)**
 
 :label:  Updating...
 
