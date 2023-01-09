@@ -1,0 +1,61 @@
+from collections import deque
+
+class Node:
+	def __init__(self, data, left=None, right=None):
+		self.data = data
+		self.left = left
+		self.right = right
+
+
+def preorder(root):
+	if root is None:
+		return
+
+	print(root.data, end=' ')
+	preorder(root.left)
+	preorder(root.right)
+
+
+def swap(root):
+	if root is None:
+		return
+
+	tmp = root.left
+	root.left = root.right
+	root.right = tmp
+
+
+def invert(root):
+	if root is None:
+		return
+
+	s = deque()
+	s.append(root)
+	while s:
+		curr = s.pop()   # Stack에서 최상위 노드 pop
+		swap(curr)
+		if curr.right:
+			s.append(curr.right)
+		if curr.left:
+			s.append(curr.left)
+
+
+if __name__ == "__main__":
+	'''
+	Construct the following tree
+				 1
+			   /   \
+			  2	    3
+			 / \   / \
+		    4   5 6   7
+	'''
+	root = Node(1)
+	root.left = Node(2)
+	root.right = Node(3)
+	root.left.left = Node(4)
+	root.left.right = Node(5)
+	root.right.left = Node(6)
+	root.right.right = Node(7)
+
+	invert(root)
+	preorder(root)

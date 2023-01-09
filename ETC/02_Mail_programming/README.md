@@ -348,6 +348,20 @@ Given two sorted integer linked lists, merge the two linked lists. Merged linked
 </details>
 
 <details>
+  <summary> d18 </summary>
+  <div markdown="1">
+
+
+이진 트리를 루트 노드를 기준으로 좌우반전 하시오.
+
+이 문제는 구글이 Homebrew 창시자에게 낸 문제로 유명합니다.
+
+Given a binary tree root node, reverse the tree horizontally.
+
+  </div>
+</details>
+
+<details>
   <summary> d19 </summary>
   <div markdown="1">
 
@@ -599,6 +613,18 @@ Given an integer, count number of 1s in binary representation of an integer.
 </details>
 
 <details>
+  <summary> d33 </summary>
+  <div markdown="1">
+
+
+스택(Stack)을 이용해서 큐(Queue)를 구현하시오.
+
+Implement a queue using stacks.
+
+  </div>
+</details>
+
+<details>
   <summary> d34 </summary>
   <div markdown="1">
 
@@ -749,19 +775,6 @@ Given a 2D array with 0s and 1s, 0 represents an obstacle and 1 represents a roa
 </details>
 
 <details>
-  <summary> d18 </summary>
-  <div markdown="1">
-
-이진 트리를 루트 노드를 기준으로 좌우반전 하시오.
-
-이 문제는 구글이 Homebrew 창시자에게 낸 문제로 유명합니다.
-
-Given a binary tree root node, reverse the tree horizontally.
-
-  </div>
-</details>
-
-<details>
   <summary> d24 </summary>
   <div markdown="1">
 
@@ -802,17 +815,6 @@ Sort an array with million integers.
 > 4 5 6 7
 >
 > 프린트: 1, 3, 2, 4, 5, 6, 7.
-
-  </div>
-</details>
-
-<details>
-  <summary> d33 </summary>
-  <div markdown="1">
-
-스택(Stack)을 이용해서 큐(Queue)를 구현하시오.
-
-Implement a queue using stacks.
 
   </div>
 </details>
