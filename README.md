@@ -28,11 +28,11 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ### Preview
 
-- **[Trash Object Detection Competition - Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/personal_report.md)**
+- **[Trash Object Detection Competition: Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/personal_report.md)**
 
-- **[Trash Object Segmentation Competition - Personal branch](https://github.com/lisy0123/semantic-segmentation-level2-cv-18/tree/main/_SUB)**
+- **[Trash Object Segmentation Competition: Personal branch](https://github.com/lisy0123/semantic-segmentation-level2-cv-18/tree/main/_SUB)**
 
->  **👉 MOREOVER: [DL Self-study](https://github.com/lisy0123/DL_Study)**
+> ### :heavy_plus_sign: [DL Self-study](https://github.com/lisy0123/DL_Study)
 
 :label: Updating...
 
@@ -44,9 +44,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ### Preview
 
-- **[Sastantua (Pyramid pattern)](https://github.com/lisy0123/42/tree/master/Piscine/sastantua/ex00)** |  **[Rush02 (Shape detection)](https://github.com/lisy0123/42/tree/master/Piscine/rush02/ex00)** 
+- [**Vector: Built-in functions & Unittest**]() |  **[Blur: Normalization]()**
 
-- **[Rush01 (Sudoku)](https://github.com/lisy0123/42/tree/master/Piscine/rush01/ex00)** | **[Fillit (Tetriminos)](https://github.com/lisy0123/42/tree/master/Cadet_old/fillit)**
+- **[Rush01: Sudoku](https://github.com/lisy0123/42/tree/master/Piscine/rush01/ex00)** | **[Fillit: Tetriminos](https://github.com/lisy0123/42/tree/master/Cadet_old/fillit)** | **[Sastantua: Pyramid pattern](https://github.com/lisy0123/42/tree/master/Piscine/sastantua/ex00)**
 
 :bulb: Rechecking...
 
@@ -64,23 +64,31 @@ Studying python, javascript, react, typescript, ect with **[nomadcoders](https:/
 
 ---
 
-## :six: [Coursera - Stanford Machine Learning](https://github.com/lisy0123/Coursera_Stanford_Machine_Learning)
+## :six: ETC
 
-It's a summary of Professor Andrew Ng's Kocera Machine Learning lecture in Korean. Although it does not include all the contents of the lecture, the necessary explanations will be further explained even if they are not included in the lecture.
-
-:bulb: Rechecking...
-
----
-
-## :seven: [LeetCode](https://github.com/lisy0123/LeetCode)
+### [0. LeetCode](https://github.com/lisy0123/LeetCode)
 
 A collection of algorithm problem solutions from **[LeetCode](https://leetcode.com/)**.
 
 :label:  Ready....
 
----
+### [1. Mail_programming](https://github.com/lisy0123/Study/blob/master/01_Mail_programming)
 
-## :eight: [ETC](https://github.com/lisy0123/Study/tree/master/ETC)
+**[Mail programming](https://mailprogramming.com/)**(It's closed now) is a site that e-mail coding problems and detailed solutions every Monday morning.
 
-A collection of miscellaneous studies about **[Baekjoon](https://www.acmicpc.net/)**, **[Mail programming](https://mailprogramming.com/)**(It's closed now), Tetris, Python, JS, etc.
+🏷️ Updating...
 
+### [2. Baekjoon](https://github.com/lisy0123/Study/tree/master/02_Baekjoon)
+
+A collection of algorithm problem solutions from **[Baekjoon](https://www.acmicpc.net/)**.
+
+### [3. Stanford Machine Learning (Coursera)](https://github.com/lisy0123/Coursera_Stanford_Machine_Learning)
+
+Solution of Quiz & Programming Assignment about **[Stanford Machine Learning (Coursera)](https://www.coursera.org/learn/machine-learning?)**
+
+### [4. ETC](https://github.com/lisy0123/Study/tree/master/ETC)
+
+- Algorithms studied with books, googling, etc.
+- Tetris with JS
+
+- Games with **[pygame](https://www.pygame.org/)**
