@@ -6,10 +6,9 @@
 |  2   | **[Boostcamp AI Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)** | Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR) | :bulb:  |
 |  3   |   **[42 Silicon Valley](https://github.com/lisy0123/42)**    | **[42 Silicon Valley](https://www.42.us.org)** is a college-level, tuition-free, computer programming school with a peer-to-peer learning environment. | :bulb:  |
 |  4   |  **[Nomadcoders](https://github.com/lisy0123/Nomadcoders)**  | Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)** | :label: |
-|  5   | **[Stanford Machine Learning](https://github.com/lisy0123/Coursera_Stanford_Machine_Learning)** | Solution of Quiz & Programming Assignment about **[Stanford Machine Learning (Coursera)](https://www.coursera.org/learn/machine-learning?)** |         |
-|  6   | **[Mail_programming](https://github.com/lisy0123/Study/blob/master/01_Mail_programming)** | **[Mail programming](https://mailprogramming.com/)**(It's closed now) is a site that e-mail coding problems and detailed solutions every Monday morning. | :label: |
-|  7   | **[Baekjoon](https://github.com/lisy0123/Study/tree/master/02_Baekjoon)** | A collection of algorithm problem solutions from **[Baekjoon](https://www.acmicpc.net/)**. |         |
-|  8   | **[ETC](https://github.com/lisy0123/Study/tree/master/ETC)** | - Algorithms studied with books, googling, etc.<br />- Tetris with JS, Games with **[pygame](https://www.pygame.org/)** |         |
+|  5   | **[Mail_programming](https://github.com/lisy0123/Study/blob/master/01_Mail_programming)** | **[Mail programming](https://mailprogramming.com/)**(It's closed now) is a site that e-mail coding problems and detailed solutions every Monday morning. | :label: |
+|  6   | **[Baekjoon](https://github.com/lisy0123/Study/tree/master/02_Baekjoon)** | A collection of algorithm problem solutions from **[Baekjoon](https://www.acmicpc.net/)**. |         |
+|  7   | **[ETC](https://github.com/lisy0123/Study/tree/master/ETC)** | - Algorithms studied with books, googling, etc.<br />- Tetris with JS, Games with **[pygame](https://www.pygame.org/)** |         |
 
 :bulb:: Rechecking...    :label:: Updating...
 
