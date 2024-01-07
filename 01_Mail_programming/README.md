@@ -681,6 +681,45 @@ Given an integer array of 1~N except one number, find the missing integer.
 </details>
 
 <details>
+  <summary> d40 </summary>
+  <div markdown="1">
+
+
+"Look and say" sequence (보고 말하는 수열)은 다음과 같습니다.
+
+1 - 1개의 1
+
+11 - 2개의 1
+
+21 - 1개의 2, 1개의 1
+
+1211 - 1개의 1, 1개의 2, 2개의 1
+
+111221 - ...
+
+위와 같이 수열의 N 번째 수는 N-1번째 수의 조합을 풀어놓은 수 입니다. 정수 N이 주어졌을때, "Look and say" 수열의 N번째 수까지 프린트 하시오.
+
+Given an integer N, print the first N numbers in "look and say" sequence.
+
+  </div>
+</details>
+
+<details>
+  <summary> d43 </summary>
+  <div markdown="1">
+
+
+이번주 문제는 인터뷰 팁입니다.
+
+1. 문제의 가장 효율적인 답을 못찾겠을때 어떻게 해야하나요?
+2. 문제를 받으면 바로 답변 코드를 종이에 적으면 되나요?
+3. 답변은 무슨 언어로 쓰는게 제일 좋은가요?
+4. 답변 코드를 쓴 후 코드를 어떻게 설명하나요?
+
+  </div>
+</details>
+
+<details>
   <summary> d44 </summary>
   <div markdown="1">
 
@@ -732,193 +771,6 @@ Given an array consisting of 0, 1 and 2s, sort this array.
 > Input: [0, 1, 2, 2, 0, 0, 0, 1]
 >
 > Output: [0, 0, 0, 0, 1, 1, 2, 2]
-
-  </div>
-</details>
-
-  </div>
-</details>
-
-<details>
-  <summary> :fountain_pen: In progress </summary>
-  <div markdown="1">
-
-<details>
-  <summary> d17 </summary>
-  <div markdown="1">
-
-0과 1로 만들어진 2D 정수 배열이 있습니다. 0은 장애물이고 1은 도로일때, 두 좌표가 주어지면, 첫번째 좌표에서 두번째 좌표까지 가장 가까운 거리를 구하시오. 두 좌표는 모두 도로에서 시작되고 좌, 우, 아래, 위로 움직이며 대각선으로는 움직일 수 없습니다. 만약 갈 수 없다면 -1을 리턴하시오.
-
-Given a 2D array with 0s and 1s, 0 represents an obstacle and 1 represents a road. Find the closest distance between two given points. You must only move up down right left. You cannot move through an obstacle.
-
-> Input:
->
-> {{**1**, 0, 0, **1**, **1**, 0},
->
-> {**1**, 0, 0, **1**, 0, 0},
->
-> {**1**, **1**, **1**, **1**, 0, 0},
->
-> {1, 0, 0, 0, 0, 1},
->
-> {1, 1, 1, 1, 1, 1}}
->
-> Start: (0, 0)
->
-> Finish: (0, 4)
->
-> 
->
-> Output: 8
-
-  </div>
-</details>
-
-<details>
-  <summary> d24 </summary>
-  <div markdown="1">
-
-단방향 연결 리스트(Singly linked list)가 주어지면 O(n log n) 시간복잡도로 정렬하시오.
-
-Given a singly linked list, sort the list in O(n log n) time complexity.
-
-  </div>
-</details>
-
-<details>
-  <summary> d31 </summary>
-  <div markdown="1">
-
-백만개의 정수가 들어있는 배열을 가장 빨리 정렬하시오. 모든 정수는 1조보다 작습니다.
-
-힌트) 퀵소트 아님.
-
-Sort an array with million integers.
-
-  </div>
-</details>
-
-<details>
-  <summary> d32 </summary>
-  <div markdown="1">
-
-이진 트리가 주어지면 루트 노드부터 레벨별로 프린트 하시오. 프린트 방식은 홀수 레벨은 왼쪽에서 오른쪽으로, 짝수 레벨은 오른쪽에서 왼쪽으로 프린트 하시오. 루트노드는 레벨 1입니다. 예제를 보시오.
-
-> 1
->
-> / \
->
-> 2 3
->
-> / \ / \
->
-> 4 5 6 7
->
-> 프린트: 1, 3, 2, 4, 5, 6, 7.
-
-  </div>
-</details>
-
-<details>
-  <summary> d37 </summary>
-  <div markdown="1">
-
-이진탐색트리안에 X보다 크고 Y보다 작은 모든 노드 값을 프린트 하시오.
-
-Given a binary search tree, print all node values that are bigger than X and smaller than Y.
-
-  </div>
-</details>
-
-<details>
-  <summary> d39 </summary>
-  <div markdown="1">
-
-단방향 연결 리스트(singly linked list)가 주어지면 총 합이 0으로 되는 연결된 노드들을 뺀 뒤 남은 노드의 값을 프린트 하시오.
-
-Given a linked list, remove consecutive nodes that sum to zero. Print the values of leftover nodes.
-
-> Input: 3 -> (-5) -> 5 -> 1 -> 2 -> 3
->
-> Output: 3 -> 1 -> 2 -> 3
-
-> Input: 1 -> 2 -> 3 -> 4 -> (-10) -> 5
->
-> Output: 5
-
-> Input: 10 -> (-3) -> (-4) -> (-3) -> 1
->
-> Output: 1
-
-  </div>
-</details>
-
-<details>
-  <summary> d40 </summary>
-  <div markdown="1">
-
-"Look and say" sequence (보고 말하는 수열)은 다음과 같습니다.
-
-1 - 1개의 1
-
-11 - 2개의 1
-
-21 - 1개의 2, 1개의 1
-
-1211 - 1개의 1, 1개의 2, 2개의 1
-
-111221 - ...
-
-위와 같이 수열의 N 번째 수는 N-1번째 수의 조합을 풀어놓은 수 입니다. 정수 N이 주어졌을때, "Look and say" 수열의 N번째 수까지 프린트 하시오.
-
-Given an integer N, print the first N numbers in "look and say" sequence.
-
-  </div>
-</details>
-
-<details>
-  <summary> d41 </summary>
-  <div markdown="1">
-
-정렬된 정수 배열이 주어지면, 발란스된 이진탐색트리로 바꾸시오.
-
-Convert a given integer array into a balanced binary search tree.
-
-  </div>
-</details>
-
-<details>
-  <summary> d42 </summary>
-  <div markdown="1">
-
-이진트리안에 모든 단말노드(leaf node)의 갯수를 구하시오. 트리의 루트노드가 주어집니다.
-
-Given a root node of a binary tree, count all leaf nodes.
-
-  </div>
-</details>
-
-<details>
-  <summary> d43 </summary>
-  <div markdown="1">
-
-이번주 문제는 인터뷰 팁입니다.
-
-1. 문제의 가장 효율적인 답을 못찾겠을때 어떻게 해야하나요?
-2. 문제를 받으면 바로 답변 코드를 종이에 적으면 되나요?
-3. 답변은 무슨 언어로 쓰는게 제일 좋은가요?
-4. 답변 코드를 쓴 후 코드를 어떻게 설명하나요?
-
-  </div>
-</details>
-
-<details>
-  <summary> d48 </summary>
-  <div markdown="1">
-
-단일 연결 리스트(singly linked list)가 주어지면 리스트의 중간 노드 값을 프린트 하시오. (제일 효율적인 방법으로)
-
-Given a singly linked list, print the value of the node that is in the middle of the list.
 
   </div>
 </details>
