@@ -1,14 +1,12 @@
 # Study
 
-|  #   |                          Repository                          | Description                                                  |         |
-| :--: | :----------------------------------------------------------: | ------------------------------------------------------------ | ------- |
-|  1   | **[Maya Scripts](https://github.com/lisy0123/Maya_Scripts)** | Useful tools made with [**Maya commands**](https://help.autodesk.com/cloudhelp/2023/ENU/Maya-Tech-Docs/CommandsPython/index.html) and [**pymel**](https://help.autodesk.com/cloudhelp/2023/ENU/Maya-Tech-Docs/PyMel/index.html#) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)**. | :label: |
-|  2   | **[Boostcamp AI Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)** | Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR) | :bulb:  |
-|  3   |   **[42 Silicon Valley](https://github.com/lisy0123/42)**    | **[42 Silicon Valley](https://www.42.us.org)** is a college-level, tuition-free, computer programming school with a peer-to-peer learning environment. | :bulb:  |
-|  4   |  **[Nomadcoders](https://github.com/lisy0123/Nomadcoders)**  | Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)** | :label: |
-|  5   | **[Mail_programming](https://github.com/lisy0123/Study/blob/master/01_Mail_programming)** | **[Mail programming](https://mailprogramming.com/)**(It's closed now) is a site that e-mail coding problems and detailed solutions every Monday morning. | :label: |
-|  6   | **[Baekjoon](https://github.com/lisy0123/Study/tree/master/02_Baekjoon)** | A collection of algorithm problem solutions from **[Baekjoon](https://www.acmicpc.net/)**. |         |
-|  7   | **[ETC](https://github.com/lisy0123/Study/tree/master/ETC)** | - Algorithms studied with books, googling, etc.<br />- Tetris with JS, Games with **[pygame](https://www.pygame.org/)** |         |
+|   #   |                          Repository                          | Description                                                  |         |
+| :---: | :----------------------------------------------------------: | ------------------------------------------------------------ | ------- |
+| **1** | **[Maya Scripts](https://github.com/lisy0123/Maya_Scripts)** | Useful tools made with [**Maya commands**](https://help.autodesk.com/cloudhelp/2023/ENU/Maya-Tech-Docs/CommandsPython/index.html) and [**pymel**](https://help.autodesk.com/cloudhelp/2023/ENU/Maya-Tech-Docs/PyMel/index.html#) that helps you easily rigging something in **[Maya](https://www.autodesk.com/products/maya/overview?support=ADVANCED&plc=MAYA&term=3-YEAR&quantity=1)** | :label: |
+| **2** | **[Boostcamp AI Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)** | Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports (Written in KR) | :bulb:  |
+| **3** |   **[42 Silicon Valley](https://github.com/lisy0123/42)**    | Collection of **[42 Silicon Valley](https://www.42.us.org)**'s projects | :bulb:  |
+| **4** |  **[Nomadcoders](https://github.com/lisy0123/Nomadcoders)**  | Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)** | :label: |
+| **5** | **[ETC](https://github.com/lisy0123/Study/tree/master/ETC)** | - **[Mail programming](https://mailprogramming.com/) & [Baekjoon](https://www.acmicpc.net/)**<br />- Algorithms studied with books, googling, etc<br />- Tetris with JS, Games with pygame |         |
 
 :bulb:: Rechecking...    :label:: Updating...
 
