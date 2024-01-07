@@ -6,7 +6,7 @@
 | **2** | **[Boostcamp AI Tech](https://github.com/lisy0123/Boostcamp_AI_Tech)** | Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports (Written in KR) | :bulb:  |
 | **3** |   **[42 Silicon Valley](https://github.com/lisy0123/42)**    | Collection of **[42 Silicon Valley](https://www.42.us.org)**'s projects | :bulb:  |
 | **4** |  **[Nomadcoders](https://github.com/lisy0123/Nomadcoders)**  | Studying python, javascript, react, typescript, ect with **[nomadcoders](https://nomadcoders.co)** | :label: |
-| **5** | **[ETC](https://github.com/lisy0123/Study/tree/master/ETC)** | - **[Mail programming](https://mailprogramming.com/) & [Baekjoon](https://www.acmicpc.net/)**<br />- Algorithms studied with books, googling, etc<br />- Tetris with JS, Games with pygame |         |
+| **5** | **[ETC](https://github.com/lisy0123/Study/tree/master/ETC)** | - **[Mail programming](https://github.com/lisy0123/Study/tree/master/01_Mail_programming) & [Baekjoon](https://github.com/lisy0123/Study/tree/master/02_Baekjoon)**<br />- Algorithms studied with books, googling, etc<br />- Tetris with JS, Games with pygame |         |
 
 :bulb:: Rechecking...    :label:: Updating...
 
